@@ -3,8 +3,8 @@ Configuration file for Investment Comparison Analysis
 """
 
 # File Paths
-HOLDINGS_FILE = r"C:\\Users\\Admin\\Desktop\\nifty_comparision\\Demat Holding_Nil_Trade_01.07.2025.xlsx"
-PORTFOLIO_FILE = r"C:\\Users\\Admin\\Desktop\\nifty_comparision\\CURRENT_WEIGHATGE_(Aug 25).xlsx"
+HOLDINGS_FILE = r"C:\\Users\swaga\\OneDrive\\Desktop\\nifty_comparision\\Demat Holding_Nil_Trade_01.07.2025.xlsx"
+PORTFOLIO_FILE = r"C:\\Users\\swaga\\OneDrive\\Desktop\\nifty_comparision\\CURRENT_WEIGHATGE_(Aug 25).xlsx"
 
 # Sheet Names
 HOLDINGS_SHEET = "DETAILED_HOLDING"
