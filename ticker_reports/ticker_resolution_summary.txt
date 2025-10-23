@@ -1,13 +1,13 @@
 
 TICKER RESOLUTION REPORT
-Generated: 2025-10-23 16:18:47
+Generated: 2025-10-23 17:07:47
 ================================================================================
 
 SUMMARY
 -------
 Total Securities:     686
-Successful:          395 (57.6%)
-Failed:              291 (42.4%)
+Successful:          402 (58.6%)
+Failed:              284 (41.4%)
 
 FILES GENERATED
 --------------
@@ -42,4 +42,4 @@ FAILED SECURITIES
   - AUTOMOBILE CORPORATION OF GOA LIMITED EQ EQ
   - AVANCE TECHNOLOGIES LIMITED EQ NEW FV RE 1/- EQ NEW FV RE 1/-
   - ELGI EQUIPMENTS LIMITED EQ F.V RS.1/-
-  ... and 271 more
+  ... and 264 more
