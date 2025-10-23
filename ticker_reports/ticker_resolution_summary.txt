@@ -1,0 +1,45 @@
+
+TICKER RESOLUTION REPORT
+Generated: 2025-10-23 16:18:47
+================================================================================
+
+SUMMARY
+-------
+Total Securities:     686
+Successful:          395 (57.6%)
+Failed:              291 (42.4%)
+
+FILES GENERATED
+--------------
+✓ successful_tickers.csv - List of resolved tickers
+✓ failed_tickers.csv     - Securities that need manual mapping
+
+NEXT STEPS
+----------
+1. Review failed_tickers.csv
+2. Manually add mappings to NSE_TICKER_MAP in ticker_resolver.py
+3. Re-run the script
+
+FAILED SECURITIES
+-----------------
+  - CREDO BRANDS MARKETING LIMITED EQ NEW FV RS 2/- EQ NEW FV RS 2/-
+  - KSR FOOTWEAR LIMITED EQ EQ
+  - THAMBBI MODERN SPINNING MILLS LIMITED EQ
+  - ACTION CONSTRUCTION EQUIPMENT LIMITED EQ NEW RS. 2/- EQ NEW RS. 2/-
+  - ANIL BIOPLUS LIMITED EQ
+  - ANIL LIMITED EQ
+  - PAE LIMITED EQ EQ
+  - STERLITE ELECTRIC LIMITED EQ EQ
+  - STERLITE GRID 5 LIMITED EQ NEW FV RS 2/- EQ NEW FV RS 2/-
+  - STERLITE TECHNOLOGIES LIMITED EQ NEW F.V. RS.2/- EQ NEW F.V. RS.2/-
+  - STL NETWORKS LIMITED EQ EQ
+  - GUJARAT NRE COKE LIMITED EQ
+  - L&T FINANCE LIMITED EQ EQ
+  - LML LIMITED EQ
+  - M.G.F. GROWTH RESEARCH AND INVESMART LIMITED EQ EQ
+  - DILIGENT MEDIA CORPORATION LIMITED EQ NEW FV RE.1/- EQ NEW FV RE.1/-
+  - AADHAR HOUSING FINANCE LIMITED EQ EQ
+  - AUTOMOBILE CORPORATION OF GOA LIMITED EQ EQ
+  - AVANCE TECHNOLOGIES LIMITED EQ NEW FV RE 1/- EQ NEW FV RE 1/-
+  - ELGI EQUIPMENTS LIMITED EQ F.V RS.1/-
+  ... and 271 more

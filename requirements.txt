@@ -1,0 +1,7 @@
+openpyxl>=3.1.2
+pandas>=2.2.0
+plotly>=5.18.0
+yfinance>=0.2.40
+numpy>=1.26.0
+kaleido>=0.2.1
+requests>=2.31.0

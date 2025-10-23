@@ -1,0 +1,1878 @@
+{
+  "downloaded": {
+    "ADANI PORTS AND SPECIAL ECONOMIC ZONE LIMITED EQ NEW RS. 2/- EQ NEW RS. 2/-": {
+      "ticker": "ADANIPORTS.NS",
+      "file": "scraped_data\\prices\\ADANI_PORTS_AND_SPECIAL_ECONOMIC_ZONE_LIMITED_EQ_N.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:55:54"
+    },
+    "ADITYA BIRLA FASHION AND RETAIL LIMITED EQ EQ": {
+      "ticker": "ABFRL.NS",
+      "file": "scraped_data\\prices\\ADITYA_BIRLA_FASHION_AND_RETAIL_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:55:55"
+    },
+    "ADITYA BIRLA LIFESTYLE BRANDS LIMITED EQ EQ": {
+      "ticker": "ABFRL.NS",
+      "file": "scraped_data\\prices\\ADITYA_BIRLA_LIFESTYLE_BRANDS_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:55:55"
+    },
+    "ASHOK LEYLAND LIMITED EQ NEW FV RE.1/- EQ NEW FV RE.1/-": {
+      "ticker": "ASHOKLEY.NS",
+      "file": "scraped_data\\prices\\ASHOK_LEYLAND_LIMITED_EQ_NEW_FV_RE1__EQ_NEW_FV_RE1.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:55:55"
+    },
+    "BAJAJ FINANCE LIMITED EQ NEW FV RE.1/- EQ NEW FV RE.1/-": {
+      "ticker": "BAJFINANCE.NS",
+      "file": "scraped_data\\prices\\BAJAJ_FINANCE_LIMITED_EQ_NEW_FV_RE1__EQ_NEW_FV_RE1.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:55:55"
+    },
+    "COAL INDIA LTD EQ EQ": {
+      "ticker": "COALINDIA.NS",
+      "file": "scraped_data\\prices\\COAL_INDIA_LTD_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:55:55"
+    },
+    "GENERAL INSURANCE CORPORATION OF INDIA EQ": {
+      "ticker": "GICRE.NS",
+      "file": "scraped_data\\prices\\GENERAL_INSURANCE_CORPORATION_OF_INDIA_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:55:55"
+    },
+    "GUJARAT INDUSTRIES POWER COMPANY LTD. EQ EQ": {
+      "ticker": "GIPCL.NS",
+      "file": "scraped_data\\prices\\GUJARAT_INDUSTRIES_POWER_COMPANY_LTD_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:55:55"
+    },
+    "GUJARAT STATE PETRONET LIMITED EQ EQ": {
+      "ticker": "GSPL.NS",
+      "file": "scraped_data\\prices\\GUJARAT_STATE_PETRONET_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:55:56"
+    },
+    "HPL ELECTRIC & POWER LIMITED EQ": {
+      "ticker": "HPL.NS",
+      "file": "scraped_data\\prices\\HPL_ELECTRIC__POWER_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:55:56"
+    },
+    "JSW STEEL LIMITED EQ NEW FV RE. 1/- EQ NEW FV RE. 1/-": {
+      "ticker": "JSWSTEEL.NS",
+      "file": "scraped_data\\prices\\JSW_STEEL_LIMITED_EQ_NEW_FV_RE_1__EQ_NEW_FV_RE_1_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:55:56"
+    },
+    "KHADIM INDIA LIMITED EQ NEW FV RS. 10/- EQ NEW FV RS. 10/-": {
+      "ticker": "KHADIM.NS",
+      "file": "scraped_data\\prices\\KHADIM_INDIA_LIMITED_EQ_NEW_FV_RS_10__EQ_NEW_FV_RS.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:55:56"
+    },
+    "LIC HOUSING FINANCE LTD EQ NEW F.V. RS.2/- EQ NEW F.V. RS.2/-": {
+      "ticker": "LICHSGFIN.NS",
+      "file": "scraped_data\\prices\\LIC_HOUSING_FINANCE_LTD_EQ_NEW_FV_RS2__EQ_NEW_FV_R.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:55:56"
+    },
+    "MANGALORE REFINERY AND PETROCHEMICALS LIMITED EQ": {
+      "ticker": "MRPL.NS",
+      "file": "scraped_data\\prices\\MANGALORE_REFINERY_AND_PETROCHEMICALS_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:55:56"
+    },
+    "PETRONET LNG LIMITED EQ": {
+      "ticker": "PETRONET.NS",
+      "file": "scraped_data\\prices\\PETRONET_LNG_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:55:56"
+    },
+    "PIX TRANSMISSIONS LIMITED EQ": {
+      "ticker": "PIXTRANS.NS",
+      "file": "scraped_data\\prices\\PIX_TRANSMISSIONS_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:55:57"
+    },
+    "PURAVANKARA LIMITED EQ EQ": {
+      "ticker": "PURVA.NS",
+      "file": "scraped_data\\prices\\PURAVANKARA_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:55:57"
+    },
+    "REC LIMITED EQ": {
+      "ticker": "RECLTD.NS",
+      "file": "scraped_data\\prices\\REC_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:55:57"
+    },
+    "RELIANCE POWER LIMITED EQ. NEW RS. 10 EQ. NEW RS. 10": {
+      "ticker": "RPOWER.NS",
+      "file": "scraped_data\\prices\\RELIANCE_POWER_LIMITED_EQ_NEW_RS_10_EQ_NEW_RS_10.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:55:57"
+    },
+    "ROUTE MOBILE LIMITED EQ EQ": {
+      "ticker": "ROUTE.NS",
+      "file": "scraped_data\\prices\\ROUTE_MOBILE_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:55:57"
+    },
+    "SBI CARDS AND PAYMENT SERVICES LIMITED EQ EQ": {
+      "ticker": "SBICARD.NS",
+      "file": "scraped_data\\prices\\SBI_CARDS_AND_PAYMENT_SERVICES_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:55:58"
+    },
+    "TATA STEEL LIMITED EQ NEW FV RE.1/- EQ NEW FV RE.1/-": {
+      "ticker": "TATASTEEL.NS",
+      "file": "scraped_data\\prices\\TATA_STEEL_LIMITED_EQ_NEW_FV_RE1__EQ_NEW_FV_RE1_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:55:58"
+    },
+    "TORRENT POWER LIMITED EQ NEW FV RS.10/- EQ NEW FV RS.10/-": {
+      "ticker": "TORNTPOWER.NS",
+      "file": "scraped_data\\prices\\TORRENT_POWER_LIMITED_EQ_NEW_FV_RS10__EQ_NEW_FV_RS.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:55:58"
+    },
+    "APCOTEX INDUSTRIES LIMITED EQ NEW FV RS. 2/-": {
+      "ticker": "APCOTEXIND.NS",
+      "file": "scraped_data\\prices\\APCOTEX_INDUSTRIES_LIMITED_EQ_NEW_FV_RS_2_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:55:58"
+    },
+    "ASIAN PAINTS LIMITED EQ NEW FV Re. 1/- EQ NEW FV Re. 1/-": {
+      "ticker": "ASIANPAINT.NS",
+      "file": "scraped_data\\prices\\ASIAN_PAINTS_LIMITED_EQ_NEW_FV_Re_1__EQ_NEW_FV_Re_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:55:58"
+    },
+    "ATUL LIMITED EQ EQ": {
+      "ticker": "ATUL.NS",
+      "file": "scraped_data\\prices\\ATUL_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:55:58"
+    },
+    "BALMER LAWRIE AND COMPANY LIMITED EQ EQ": {
+      "ticker": "BALMLAWRIE.NS",
+      "file": "scraped_data\\prices\\BALMER_LAWRIE_AND_COMPANY_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:55:59"
+    },
+    "BHARTI AIRTEL LIMITED EQ NEW FV RS 5/- EQ NEW FV RS 5/-": {
+      "ticker": "BHARTIARTL.NS",
+      "file": "scraped_data\\prices\\BHARTI_AIRTEL_LIMITED_EQ_NEW_FV_RS_5__EQ_NEW_FV_RS.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:55:59"
+    },
+    "CG POWER AND INDUSTRIAL SOLUTIONS LIMITED EQ NEW FV RS.2/- EQ NEW FV RS.2/-": {
+      "ticker": "CGPOWER.NS",
+      "file": "scraped_data\\prices\\CG_POWER_AND_INDUSTRIAL_SOLUTIONS_LIMITED_EQ_NEW_F.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:55:59"
+    },
+    "CHAMBAL FERTILISERS AND CHEMICALS LIMITED EQ EQ": {
+      "ticker": "CHAMBLFERT.NS",
+      "file": "scraped_data\\prices\\CHAMBAL_FERTILISERS_AND_CHEMICALS_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:55:59"
+    },
+    "CROMPTON GREAVES CONSUMER ELECTRICALS LIMITED EQ EQ": {
+      "ticker": "CROMPTON.NS",
+      "file": "scraped_data\\prices\\CROMPTON_GREAVES_CONSUMER_ELECTRICALS_LIMITED_EQ_E.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:55:59"
+    },
+    "DABUR INDIA LIMITED EQ F.V. RE.1 EQ F.V. RE.1": {
+      "ticker": "DABUR.NS",
+      "file": "scraped_data\\prices\\DABUR_INDIA_LIMITED_EQ_FV_RE1_EQ_FV_RE1.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:55:59"
+    },
+    "ENERGY DEVELOPMENT COMPANY LIMITED EQ": {
+      "ticker": "ENERGYDEV.NS",
+      "file": "scraped_data\\prices\\ENERGY_DEVELOPMENT_COMPANY_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:55:59"
+    },
+    "IFCI LIMITED EQ EQ": {
+      "ticker": "IFCI.NS",
+      "file": "scraped_data\\prices\\IFCI_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:00"
+    },
+    "JAI CORP LIMITED EQ NEW RE.1/- EQ NEW RE.1/-": {
+      "ticker": "JAICORPLTD.NS",
+      "file": "scraped_data\\prices\\JAI_CORP_LIMITED_EQ_NEW_RE1__EQ_NEW_RE1_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:00"
+    },
+    "JAIPRAKASH ASSOCIATES LIMITED EQ. NEW RS. 2": {
+      "ticker": "JPASSOCIAT.NS",
+      "file": "scraped_data\\prices\\JAIPRAKASH_ASSOCIATES_LIMITED_EQ_NEW_RS_2.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:00"
+    },
+    "JAY SHREE TEA AND INDUSTRIES LIMITED EQ NEW F.V. RS.5/- EQ NEW F.V. RS.5/-": {
+      "ticker": "JAYSREETEA.NS",
+      "file": "scraped_data\\prices\\JAY_SHREE_TEA_AND_INDUSTRIES_LIMITED_EQ_NEW_FV_RS5.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:00"
+    },
+    "JINDAL STEEL LIMITED EQ. NEW RS.1 EQ. NEW RS.1": {
+      "ticker": "JSL.NS",
+      "file": "scraped_data\\prices\\JINDAL_STEEL_LIMITED_EQ_NEW_RS1_EQ_NEW_RS1.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:00"
+    },
+    "JIO FINANCIAL SERVICES LIMITED EQ EQ": {
+      "ticker": "JIOFIN.NS",
+      "file": "scraped_data\\prices\\JIO_FINANCIAL_SERVICES_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:00"
+    },
+    "LARSEN AND TOUBRO LIMITED EQ NEW FV RS.2/- EQ NEW FV RS.2/-": {
+      "ticker": "LT.NS",
+      "file": "scraped_data\\prices\\LARSEN_AND_TOUBRO_LIMITED_EQ_NEW_FV_RS2__EQ_NEW_FV.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:00"
+    },
+    "LTIMINDTREE LIMITED EQ EQ": {
+      "ticker": "LTIM.NS",
+      "file": "scraped_data\\prices\\LTIMINDTREE_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:00"
+    },
+    "POWER GRID CORPORATION OF INDIA LIMITED EQ": {
+      "ticker": "POWERGRID.NS",
+      "file": "scraped_data\\prices\\POWER_GRID_CORPORATION_OF_INDIA_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:01"
+    },
+    "RELIANCE COMMUNICATIONS LIMITED EQ": {
+      "ticker": "RELIANCE.NS",
+      "file": "scraped_data\\prices\\RELIANCE_COMMUNICATIONS_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:01"
+    },
+    "RELIANCE HOME FINANCE LIMITED EQ EQ": {
+      "ticker": "RELIANCE.NS",
+      "file": "scraped_data\\prices\\RELIANCE_HOME_FINANCE_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:01"
+    },
+    "RELIANCE INDUSTRIES LIMITED EQ EQ": {
+      "ticker": "RELIANCE.NS",
+      "file": "scraped_data\\prices\\RELIANCE_INDUSTRIES_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:01"
+    },
+    "RELIANCE INFRASTRUCTURE LIMITED EQ": {
+      "ticker": "RELIANCE.NS",
+      "file": "scraped_data\\prices\\RELIANCE_INFRASTRUCTURE_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:01"
+    },
+    "RELIGARE ENTERPRISES LIMITED EQ EQ": {
+      "ticker": "RELIGARE.NS",
+      "file": "scraped_data\\prices\\RELIGARE_ENTERPRISES_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:01"
+    },
+    "SHRI DINESH MILLS LIMITED EQ NEW RS. 10/- EQ NEW RS. 10/-": {
+      "ticker": "SHREDIGCEM.NS",
+      "file": "scraped_data\\prices\\SHRI_DINESH_MILLS_LIMITED_EQ_NEW_RS_10__EQ_NEW_RS_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:01"
+    },
+    "SUN PHARMACEUTICAL INDUSTRIES LIMITED EQ NEW F.V. RE.1/- EQ NEW F.V. RE.1/-": {
+      "ticker": "SUNPHARMA.NS",
+      "file": "scraped_data\\prices\\SUN_PHARMACEUTICAL_INDUSTRIES_LIMITED_EQ_NEW_FV_RE.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:01"
+    },
+    "SUTLEJ TEXTILES AND INDUSTRIES LIMITED EQ NEW F RE. 1/- EQ NEW F RE. 1/-": {
+      "ticker": "SUTLEJTEX.NS",
+      "file": "scraped_data\\prices\\SUTLEJ_TEXTILES_AND_INDUSTRIES_LIMITED_EQ_NEW_F_RE.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:01"
+    },
+    "TATA TECHNOLOGIES LIMITED EQ NEW FV RS. 2/- EQ NEW FV RS. 2/-": {
+      "ticker": "TATATECH.NS",
+      "file": "scraped_data\\prices\\TATA_TECHNOLOGIES_LIMITED_EQ_NEW_FV_RS_2__EQ_NEW_F.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:02"
+    },
+    "TATA TELESERVICES (MAHARASHTRA) LTD EQ EQ": {
+      "ticker": "TTML.NS",
+      "file": "scraped_data\\prices\\TATA_TELESERVICES_MAHARASHTRA_LTD_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:02"
+    },
+    "VODAFONE IDEA LIMITED EQ EQ": {
+      "ticker": "IDEA.NS",
+      "file": "scraped_data\\prices\\VODAFONE_IDEA_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:02"
+    },
+    "WALCHANDNAGAR INDUSTRIES LIMITED EQ NEW RS. 2/- EQ NEW RS. 2/-": {
+      "ticker": "WALCHANNAG.NS",
+      "file": "scraped_data\\prices\\WALCHANDNAGAR_INDUSTRIES_LIMITED_EQ_NEW_RS_2__EQ_N.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:02"
+    },
+    "ZENSAR TECHNOLOGIES LIMITED EQ NEW FV RS. 2 EQ NEW FV RS. 2": {
+      "ticker": "ZENSARTECH.NS",
+      "file": "scraped_data\\prices\\ZENSAR_TECHNOLOGIES_LIMITED_EQ_NEW_FV_RS_2_EQ_NEW_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:02"
+    },
+    "ZYDUS WELLNESS LIMITED EQ NEW FV Rs.2/- EQ NEW FV Rs.2/-": {
+      "ticker": "ZYDUSWELL.NS",
+      "file": "scraped_data\\prices\\ZYDUS_WELLNESS_LIMITED_EQ_NEW_FV_Rs2__EQ_NEW_FV_Rs.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:02"
+    },
+    "MCX INDIA LIMITED EQ NEW RS. 10/-": {
+      "ticker": "MCX.NS",
+      "file": "scraped_data\\prices\\MCX_INDIA_LIMITED_EQ_NEW_RS_10_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:02"
+    },
+    "ABAN OFFSHORE LIMITED EQ NEW FV RS.2/-": {
+      "ticker": "ABAN.NS",
+      "file": "scraped_data\\prices\\ABAN_OFFSHORE_LIMITED_EQ_NEW_FV_RS2_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:03"
+    },
+    "BANK OF BARODA EQ NEW FV RS. 2/-": {
+      "ticker": "BANKBARODA.NS",
+      "file": "scraped_data\\prices\\BANK_OF_BARODA_EQ_NEW_FV_RS_2_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:03"
+    },
+    "BHARAT ELECTRONICS LIMITED EQ NEW FV Re 1/-": {
+      "ticker": "BEL.NS",
+      "file": "scraped_data\\prices\\BHARAT_ELECTRONICS_LIMITED_EQ_NEW_FV_Re_1_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:03"
+    },
+    "BHARAT HEAVY ELECTRICALS LIMITED EQ NEW FV RS. 2/-": {
+      "ticker": "BHEL.NS",
+      "file": "scraped_data\\prices\\BHARAT_HEAVY_ELECTRICALS_LIMITED_EQ_NEW_FV_RS_2_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:03"
+    },
+    "CASTROL INDIA LIMITED EQ NEW FV RS. 5/-": {
+      "ticker": "CASTROLIND.NS",
+      "file": "scraped_data\\prices\\CASTROL_INDIA_LIMITED_EQ_NEW_FV_RS_5_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:03"
+    },
+    "COLGATE-PALMOLIVE (INDIA) LIMITED EQ NEW FV RS.1/-": {
+      "ticker": "COLPAL.NS",
+      "file": "scraped_data\\prices\\COLGATEPALMOLIVE_INDIA_LIMITED_EQ_NEW_FV_RS1_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:03"
+    },
+    "HDFC ASSET MANAGEMENT COMPANY LIMITED EQ NEW FV RS. 5/- EQ NEW FV RS. 5/-": {
+      "ticker": "HDFCAMC.NS",
+      "file": "scraped_data\\prices\\HDFC_ASSET_MANAGEMENT_COMPANY_LIMITED_EQ_NEW_FV_RS.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:04"
+    },
+    "HDFC BANK LIMITED EQ NEW FV RE. 1/- EQ NEW FV RE. 1/-": {
+      "ticker": "HDFCBANK.NS",
+      "file": "scraped_data\\prices\\HDFC_BANK_LIMITED_EQ_NEW_FV_RE_1__EQ_NEW_FV_RE_1_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:04"
+    },
+    "HINDUSTAN AERONAUTICS LIMITED EQ NEW FV RS 5/-": {
+      "ticker": "HAL.NS",
+      "file": "scraped_data\\prices\\HINDUSTAN_AERONAUTICS_LIMITED_EQ_NEW_FV_RS_5_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:04"
+    },
+    "SUZLON ENERGY LIMITED EQ. NEW RS. 2/- EQ. NEW RS. 2/-": {
+      "ticker": "SUZLON.NS",
+      "file": "scraped_data\\prices\\SUZLON_ENERGY_LIMITED_EQ_NEW_RS_2__EQ_NEW_RS_2_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:04"
+    },
+    "BANK OF MAHARASHTRA EQ EQ": {
+      "ticker": "MAHABANK.NS",
+      "file": "scraped_data\\prices\\BANK_OF_MAHARASHTRA_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:04"
+    },
+    "DEEPAK FERTILISERS AND PETROCHEMICALS CORPORATION LTD EQ EQ": {
+      "ticker": "DEEPAKFERT.NS",
+      "file": "scraped_data\\prices\\DEEPAK_FERTILISERS_AND_PETROCHEMICALS_CORPORATION_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:04"
+    },
+    "DISH TV INDIA LIMITED EQ NEW FV RE. 1/- EQ NEW FV RE. 1/-": {
+      "ticker": "DISHTV.NS",
+      "file": "scraped_data\\prices\\DISH_TV_INDIA_LIMITED_EQ_NEW_FV_RE_1__EQ_NEW_FV_RE.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:04"
+    },
+    "HIMADRI SPECIALITY CHEMICAL LIMITED EQ NEW F.V. RE.1/- EQ NEW F.V. RE.1/-": {
+      "ticker": "HSCL.NS",
+      "file": "scraped_data\\prices\\HIMADRI_SPECIALITY_CHEMICAL_LIMITED_EQ_NEW_FV_RE1_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:05"
+    },
+    "ICICI BANK LIMITED EQ NEW FV RS. 2/- EQ NEW FV RS. 2/-": {
+      "ticker": "ICICIBANK.NS",
+      "file": "scraped_data\\prices\\ICICI_BANK_LIMITED_EQ_NEW_FV_RS_2__EQ_NEW_FV_RS_2_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:05"
+    },
+    "LLOYDS ENGINEERING WORKS LIMITED EQ EQ": {
+      "ticker": "LLOYDS.NS",
+      "file": "scraped_data\\prices\\LLOYDS_ENGINEERING_WORKS_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:05"
+    },
+    "NTPC LIMITED EQ": {
+      "ticker": "NTPC.NS",
+      "file": "scraped_data\\prices\\NTPC_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:05"
+    },
+    "SITI NETWORKS LIMITED EQ EQ": {
+      "ticker": "SITINET.NS",
+      "file": "scraped_data\\prices\\SITI_NETWORKS_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:05"
+    },
+    "TATA CONSULTANCY SERVICES LIMITED EQ NEW FV RE.1/- EQ NEW FV RE.1/-": {
+      "ticker": "TCS.NS",
+      "file": "scraped_data\\prices\\TATA_CONSULTANCY_SERVICES_LIMITED_EQ_NEW_FV_RE1__E.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:05"
+    },
+    "ZEE ENTERTAINMENT ENTERPRISES LIMITED EQ F.V.RE.1 EQ F.V.RE.1": {
+      "ticker": "ZEEL.NS",
+      "file": "scraped_data\\prices\\ZEE_ENTERTAINMENT_ENTERPRISES_LIMITED_EQ_FVRE1_EQ_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:05"
+    },
+    "ZEE LEARN LIMITED EQ EQ": {
+      "ticker": "ZEELEARN.NS",
+      "file": "scraped_data\\prices\\ZEE_LEARN_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:06"
+    },
+    "ZEE MEDIA CORPORATION LIMITED EQ": {
+      "ticker": "ZEEMEDIA.NS",
+      "file": "scraped_data\\prices\\ZEE_MEDIA_CORPORATION_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:06"
+    },
+    "ASIAN GRANITO INDIA LIMITED EQ EQ": {
+      "ticker": "ASIANTILES.NS",
+      "file": "scraped_data\\prices\\ASIAN_GRANITO_INDIA_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:06"
+    },
+    "CARTRADE TECH LIMITED EQ EQ": {
+      "ticker": "CARTRADE.NS",
+      "file": "scraped_data\\prices\\CARTRADE_TECH_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:06"
+    },
+    "CYIENT DLM LIMITED EQ EQ": {
+      "ticker": "CYIENT.NS",
+      "file": "scraped_data\\prices\\CYIENT_DLM_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:06"
+    },
+    "DLF LIMITED EQ NEW FV RS.2/-": {
+      "ticker": "DLF.NS",
+      "file": "scraped_data\\prices\\DLF_LIMITED_EQ_NEW_FV_RS2_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:06"
+    },
+    "EDELWEISS FINANCIAL SERVICES LIMITED EQ NEW F.V. RE.1/- EQ NEW F.V. RE.1/-": {
+      "ticker": "EDELWEISS.NS",
+      "file": "scraped_data\\prices\\EDELWEISS_FINANCIAL_SERVICES_LIMITED_EQ_NEW_FV_RE1.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:06"
+    },
+    "EQUITAS SMALL FINANCE BANK LIMITED EQ EQ": {
+      "ticker": "EQUITASBNK.NS",
+      "file": "scraped_data\\prices\\EQUITAS_SMALL_FINANCE_BANK_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:07"
+    },
+    "FILATEX INDIA LIMITED EQ NEW FV RE.1/- EQ NEW FV RE.1/-": {
+      "ticker": "FILATEX.NS",
+      "file": "scraped_data\\prices\\FILATEX_INDIA_LIMITED_EQ_NEW_FV_RE1__EQ_NEW_FV_RE1.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:07"
+    },
+    "HDFC LIFE INSURANCE COMPANY LIMITED EQ EQ": {
+      "ticker": "HDFCLIFE.NS",
+      "file": "scraped_data\\prices\\HDFC_LIFE_INSURANCE_COMPANY_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:07"
+    },
+    "ICICI PRUDENTIAL LIFE INSURANCE COMPANY LIMITED EQ EQ": {
+      "ticker": "ICICIPRULI.NS",
+      "file": "scraped_data\\prices\\ICICI_PRUDENTIAL_LIFE_INSURANCE_COMPANY_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:07"
+    },
+    "IDFC FIRST BANK LIMITED EQ EQ": {
+      "ticker": "IDFCFIRSTB.NS",
+      "file": "scraped_data\\prices\\IDFC_FIRST_BANK_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:07"
+    },
+    "INDIAN RAILWAY FINANCE CORPORATION LIMITED EQ": {
+      "ticker": "IRFC.NS",
+      "file": "scraped_data\\prices\\INDIAN_RAILWAY_FINANCE_CORPORATION_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:07"
+    },
+    "INFOSYS LIMITED EQ FV RS 5 EQ FV RS 5": {
+      "ticker": "INFY.NS",
+      "file": "scraped_data\\prices\\INFOSYS_LIMITED_EQ_FV_RS_5_EQ_FV_RS_5.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:08"
+    },
+    "JSW INFRASTRUCTURE LIMITED EQ NEW FV RS 2/- EQ NEW FV RS 2/-": {
+      "ticker": "JSWINFRA.NS",
+      "file": "scraped_data\\prices\\JSW_INFRASTRUCTURE_LIMITED_EQ_NEW_FV_RS_2__EQ_NEW_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:08"
+    },
+    "KSK ENERGY VENTURES LIMITED EQ EQ": {
+      "ticker": "KSK.NS",
+      "file": "scraped_data\\prices\\KSK_ENERGY_VENTURES_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:08"
+    },
+    "MONTE CARLO FASHIONS LIMITED EQ EQ": {
+      "ticker": "MONTECARLO.NS",
+      "file": "scraped_data\\prices\\MONTE_CARLO_FASHIONS_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:08"
+    },
+    "MOREPEN LABORATORIES LIMITED EQ F.V.RS.2 EQ F.V.RS.2": {
+      "ticker": "MOREPENLAB.NS",
+      "file": "scraped_data\\prices\\MOREPEN_LABORATORIES_LIMITED_EQ_FVRS2_EQ_FVRS2.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:08"
+    },
+    "NHPC LIMITED EQ EQ": {
+      "ticker": "NHPC.NS",
+      "file": "scraped_data\\prices\\NHPC_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:08"
+    },
+    "OIL AND NATURAL GAS CORPORATION LIMITED EQ NEW F.V RS.5/- EQ NEW F.V RS.5/-": {
+      "ticker": "ONGC.NS",
+      "file": "scraped_data\\prices\\OIL_AND_NATURAL_GAS_CORPORATION_LIMITED_EQ_NEW_FV_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:08"
+    },
+    "OIL INDIA LIMITED EQ EQ": {
+      "ticker": "OIL.NS",
+      "file": "scraped_data\\prices\\OIL_INDIA_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:09"
+    },
+    "OSWAL GREENTECH LIMITED EQ": {
+      "ticker": "OSWALGREEN.NS",
+      "file": "scraped_data\\prices\\OSWAL_GREENTECH_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:09"
+    },
+    "PATEL ENGINEERING LIMITED EQ NEW FV RE.1 EQ NEW FV RE.1": {
+      "ticker": "PATELENG.NS",
+      "file": "scraped_data\\prices\\PATEL_ENGINEERING_LIMITED_EQ_NEW_FV_RE1_EQ_NEW_FV_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:09"
+    },
+    "PNB HOUSING FINANCE LIMITED EQ EQ": {
+      "ticker": "PNB.NS",
+      "file": "scraped_data\\prices\\PNB_HOUSING_FINANCE_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:09"
+    },
+    "POWER FINANCE CORPORATION LIMITED EQ EQ": {
+      "ticker": "PFC.NS",
+      "file": "scraped_data\\prices\\POWER_FINANCE_CORPORATION_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:09"
+    },
+    "PRECISION CAMSHAFTS LIMITED EQ NEW FV RS. 10/-": {
+      "ticker": "PRECISION.NS",
+      "file": "scraped_data\\prices\\PRECISION_CAMSHAFTS_LIMITED_EQ_NEW_FV_RS_10_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:09"
+    },
+    "ROYALE MANOR HOTELS AND INDUSTRIES LIMITED EQ EQ": {
+      "ticker": "ROHLTD.NS",
+      "file": "scraped_data\\prices\\ROYALE_MANOR_HOTELS_AND_INDUSTRIES_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:09"
+    },
+    "SHYAM METALICS AND ENERGY LIMITED EQ EQ": {
+      "ticker": "SHYAM.BO",
+      "file": "scraped_data\\prices\\SHYAM_METALICS_AND_ENERGY_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:10"
+    },
+    "STATE BANK OF INDIA EQ NEW RE. 1/- EQ NEW RE. 1/-": {
+      "ticker": "SBIN.NS",
+      "file": "scraped_data\\prices\\STATE_BANK_OF_INDIA_EQ_NEW_RE_1__EQ_NEW_RE_1_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:10"
+    },
+    "TAKE SOLUTIONS LIMITED EQ NEW RE.1/-": {
+      "ticker": "TAKE.NS",
+      "file": "scraped_data\\prices\\TAKE_SOLUTIONS_LIMITED_EQ_NEW_RE1_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:10"
+    },
+    "TATA MOTORS LIMITED EQ NEW FV RS. 2/- EQ NEW FV RS. 2/-": {
+      "ticker": "TATAMOTORS.NS",
+      "file": "scraped_data\\prices\\TATA_MOTORS_LIMITED_EQ_NEW_FV_RS_2__EQ_NEW_FV_RS_2.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:10"
+    },
+    "ULTRATECH CEMENT LIMITED EQ EQ": {
+      "ticker": "ULTRACEMCO.NS",
+      "file": "scraped_data\\prices\\ULTRATECH_CEMENT_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:10"
+    },
+    "VEDANTA LIMITED EQ NEW RS.1/- EQ NEW RS.1/-": {
+      "ticker": "VEDL.NS",
+      "file": "scraped_data\\prices\\VEDANTA_LIMITED_EQ_NEW_RS1__EQ_NEW_RS1_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:10"
+    },
+    "VISHNU PRAKASH R PUNGLIA LIMITED EQ": {
+      "ticker": "VISHNU.NS",
+      "file": "scraped_data\\prices\\VISHNU_PRAKASH_R_PUNGLIA_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:10"
+    },
+    "WIPRO LIMITED EQ F.V. RS. 2 EQ F.V. RS. 2": {
+      "ticker": "WIPRO.NS",
+      "file": "scraped_data\\prices\\WIPRO_LIMITED_EQ_FV_RS_2_EQ_FV_RS_2.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:11"
+    },
+    "RATNAMANI METALS AND TUBES LIMITED EQ NEW RS. 2/- EQ NEW RS. 2/-": {
+      "ticker": "RATNAMANI.NS",
+      "file": "scraped_data\\prices\\RATNAMANI_METALS_AND_TUBES_LIMITED_EQ_NEW_RS_2__EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:11"
+    },
+    "GAIL (INDIA) LIMITED EQ": {
+      "ticker": "GAIL.NS",
+      "file": "scraped_data\\prices\\GAIL_INDIA_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:11"
+    },
+    "POWER FINANCE CORPORATION LIMITED 7.36 BD 04JN28 FVRS1000 7.36 BD 04JN28 FVRS1000": {
+      "ticker": "PFC.NS",
+      "file": "scraped_data\\prices\\POWER_FINANCE_CORPORATION_LIMITED_736_BD_04JN28_FV.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:11"
+    },
+    "ADANI POWER LIMITED EQ NEW FV Rs.2/- EQ NEW FV Rs.2/-": {
+      "ticker": "ADANIPOWER.NS",
+      "file": "scraped_data\\prices\\ADANI_POWER_LIMITED_EQ_NEW_FV_Rs2__EQ_NEW_FV_Rs2_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:11"
+    },
+    "ADANI TOTAL GAS LIMITED EQ NEW FV RE. 1/-": {
+      "ticker": "ATGL.NS",
+      "file": "scraped_data\\prices\\ADANI_TOTAL_GAS_LIMITED_EQ_NEW_FV_RE_1_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:11"
+    },
+    "DCB BANK LIMITED EQ EQ": {
+      "ticker": "DCBBANK.NS",
+      "file": "scraped_data\\prices\\DCB_BANK_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:11"
+    },
+    "ITI LIMITED EQ": {
+      "ticker": "ITI.NS",
+      "file": "scraped_data\\prices\\ITI_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:11"
+    },
+    "LUPIN LIMITED EQ NEW F.V. RS.2/- EQ NEW F.V. RS.2/-": {
+      "ticker": "LUPIN.NS",
+      "file": "scraped_data\\prices\\LUPIN_LIMITED_EQ_NEW_FV_RS2__EQ_NEW_FV_RS2_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:12"
+    },
+    "NATIONAL ALUMINIUM COMPANY LIMITED EQ NEW F.V. RS.5/- EQ NEW F.V. RS.5/-": {
+      "ticker": "NATIONALUM.NS",
+      "file": "scraped_data\\prices\\NATIONAL_ALUMINIUM_COMPANY_LIMITED_EQ_NEW_FV_RS5__.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:12"
+    },
+    "NBCC (INDIA) LIMITED EQ NEW FV RE. 1/- EQ NEW FV RE. 1/-": {
+      "ticker": "NBCC.NS",
+      "file": "scraped_data\\prices\\NBCC_INDIA_LIMITED_EQ_NEW_FV_RE_1__EQ_NEW_FV_RE_1_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:12"
+    },
+    "NMDC LIMITED EQ NEW RS.1/- EQ NEW RS.1/-": {
+      "ticker": "NMDC.NS",
+      "file": "scraped_data\\prices\\NMDC_LIMITED_EQ_NEW_RS1__EQ_NEW_RS1_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:12"
+    },
+    "NMDC STEEL LIMITED EQ": {
+      "ticker": "NMDC.NS",
+      "file": "scraped_data\\prices\\NMDC_STEEL_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:12"
+    },
+    "NOCIL LIMITED EQ EQ": {
+      "ticker": "NOCIL.NS",
+      "file": "scraped_data\\prices\\NOCIL_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:12"
+    },
+    "OLECTRA GREENTECH LIMITED EQ": {
+      "ticker": "OLECTRA.NS",
+      "file": "scraped_data\\prices\\OLECTRA_GREENTECH_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:12"
+    },
+    "SADBHAV ENGINEERING LIMITED EQ NEW F.V RE.1/-": {
+      "ticker": "SADBHAV.NS",
+      "file": "scraped_data\\prices\\SADBHAV_ENGINEERING_LIMITED_EQ_NEW_FV_RE1_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:13"
+    },
+    "STEEL AUTHORITY OF INDIA LIMITED EQ": {
+      "ticker": "SAIL.NS",
+      "file": "scraped_data\\prices\\STEEL_AUTHORITY_OF_INDIA_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:13"
+    },
+    "TITAGARH RAIL SYSTEMS LIMITED EQ NEW FV RS. 2/- EQ NEW FV RS. 2/-": {
+      "ticker": "TITAGARH.NS",
+      "file": "scraped_data\\prices\\TITAGARH_RAIL_SYSTEMS_LIMITED_EQ_NEW_FV_RS_2__EQ_N.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:13"
+    },
+    "UNION BANK OF INDIA EQ EQ": {
+      "ticker": "UNIONBANK.NS",
+      "file": "scraped_data\\prices\\UNION_BANK_OF_INDIA_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:13"
+    },
+    "UNO MINDA LIMITED EQ NEW FV RS. 2/- EQ NEW FV RS. 2/-": {
+      "ticker": "UNOMINDA.NS",
+      "file": "scraped_data\\prices\\UNO_MINDA_LIMITED_EQ_NEW_FV_RS_2__EQ_NEW_FV_RS_2_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:13"
+    },
+    "YES BANK LIMITED EQ NEW FV RS. 2/- EQ NEW FV RS. 2/-": {
+      "ticker": "YESBANK.NS",
+      "file": "scraped_data\\prices\\YES_BANK_LIMITED_EQ_NEW_FV_RS_2__EQ_NEW_FV_RS_2_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:13"
+    },
+    "ADANI GREEN ENERGY LIMITED EQ EQ": {
+      "ticker": "ADANIGREEN.NS",
+      "file": "scraped_data\\prices\\ADANI_GREEN_ENERGY_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:14"
+    },
+    "BHARAT DYNAMICS LIMITED EQ NEW FV RS 5/- EQ NEW FV RS 5/-": {
+      "ticker": "BDL.NS",
+      "file": "scraped_data\\prices\\BHARAT_DYNAMICS_LIMITED_EQ_NEW_FV_RS_5__EQ_NEW_FV_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:14"
+    },
+    "CONTAINER CORPORATION OF INDIA LIMITED EQ NEW FV RS. 5/- EQ NEW FV RS. 5/-": {
+      "ticker": "CONCOR.NS",
+      "file": "scraped_data\\prices\\CONTAINER_CORPORATION_OF_INDIA_LIMITED_EQ_NEW_FV_R.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:14"
+    },
+    "DEN NETWORKS LIMITED EQ": {
+      "ticker": "DEN.NS",
+      "file": "scraped_data\\prices\\DEN_NETWORKS_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:14"
+    },
+    "HATHWAY CABLE AND DATACOM LIMITED EQ NEW FV RS. 2/- EQ NEW FV RS. 2/-": {
+      "ticker": "HATHWAY.NS",
+      "file": "scraped_data\\prices\\HATHWAY_CABLE_AND_DATACOM_LIMITED_EQ_NEW_FV_RS_2__.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:14"
+    },
+    "INDIAN OIL CORPORATION LIMITED EQ": {
+      "ticker": "IOC.NS",
+      "file": "scraped_data\\prices\\INDIAN_OIL_CORPORATION_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:14"
+    },
+    "IRCON INTERNATIONAL LIMITED EQ NEW FV RS. 2/-": {
+      "ticker": "IRCON.NS",
+      "file": "scraped_data\\prices\\IRCON_INTERNATIONAL_LIMITED_EQ_NEW_FV_RS_2_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:14"
+    },
+    "NETWORK18 MEDIA & INVESTMENTS LIMITED EQ EQ": {
+      "ticker": "NETWORK18.NS",
+      "file": "scraped_data\\prices\\NETWORK18_MEDIA__INVESTMENTS_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:15"
+    },
+    "PARAS DEFENCE AND SPACE TECHNOLOGIES LIMITED EQ NEW FV Rs.5/- EQ NEW FV Rs.5/-": {
+      "ticker": "PARAS.NS",
+      "file": "scraped_data\\prices\\PARAS_DEFENCE_AND_SPACE_TECHNOLOGIES_LIMITED_EQ_NE.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:15"
+    },
+    "RALLIS INDIA LIMITED EQ NEW Re. 1/- EQ NEW Re. 1/-": {
+      "ticker": "RALLIS.NS",
+      "file": "scraped_data\\prices\\RALLIS_INDIA_LIMITED_EQ_NEW_Re_1__EQ_NEW_Re_1_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:15"
+    },
+    "REDINGTON LIMITED EQ NEW F.V. RS.2/- EQ NEW F.V. RS.2/-": {
+      "ticker": "REDINGTON.NS",
+      "file": "scraped_data\\prices\\REDINGTON_LIMITED_EQ_NEW_FV_RS2__EQ_NEW_FV_RS2_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:15"
+    },
+    "RITES LIMITED EQ EQ": {
+      "ticker": "RITES.NS",
+      "file": "scraped_data\\prices\\RITES_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:15"
+    },
+    "SJVN LIMITED EQ EQ": {
+      "ticker": "SJVN.NS",
+      "file": "scraped_data\\prices\\SJVN_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:15"
+    },
+    "THE TATA POWER COMPANY LIMITED EQ NEW FV Re.1/- EQ NEW FV Re.1/-": {
+      "ticker": "TATAPOWER.NS",
+      "file": "scraped_data\\prices\\THE_TATA_POWER_COMPANY_LIMITED_EQ_NEW_FV_Re1__EQ_N.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:16"
+    },
+    "UPL LIMITED EQ NEW FV RS.2/- EQ NEW FV RS.2/-": {
+      "ticker": "UPL.NS",
+      "file": "scraped_data\\prices\\UPL_LIMITED_EQ_NEW_FV_RS2__EQ_NEW_FV_RS2_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:16"
+    },
+    "ALLCARGO GATI LIMITED EQ NEW FV RS.2/- EQ NEW FV RS.2/-": {
+      "ticker": "ALLCARGO.NS",
+      "file": "scraped_data\\prices\\ALLCARGO_GATI_LIMITED_EQ_NEW_FV_RS2__EQ_NEW_FV_RS2.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:16"
+    },
+    "BIRLA CABLE LIMITED EQ": {
+      "ticker": "BIRLACABLE.NS",
+      "file": "scraped_data\\prices\\BIRLA_CABLE_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:16"
+    },
+    "DCM SHRIRAM INDUSTRIES LIMITED EQ NEW FV RS. 2/-": {
+      "ticker": "DCM.NS",
+      "file": "scraped_data\\prices\\DCM_SHRIRAM_INDUSTRIES_LIMITED_EQ_NEW_FV_RS_2_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:16"
+    },
+    "DYNAMIC INDUSTRIES LIMITED EQ": {
+      "ticker": "DYNAMIC.NS",
+      "file": "scraped_data\\prices\\DYNAMIC_INDUSTRIES_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:16"
+    },
+    "TCI DEVELOPERS LIMITED EQ": {
+      "ticker": "TCI.NS",
+      "file": "scraped_data\\prices\\TCI_DEVELOPERS_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:16"
+    },
+    "TCI EXPRESS LIMITED EQ EQ": {
+      "ticker": "TCI.NS",
+      "file": "scraped_data\\prices\\TCI_EXPRESS_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:16"
+    },
+    "INDRAPRASTHA GAS LIMITED EQ NEW FV RS.2/- EQ NEW FV RS.2/-": {
+      "ticker": "IGL.NS",
+      "file": "scraped_data\\prices\\INDRAPRASTHA_GAS_LIMITED_EQ_NEW_FV_RS2__EQ_NEW_FV_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:17"
+    },
+    "PUNJAB NATIONAL BANK EQ NEW FV RS. 2/-": {
+      "ticker": "PNB.NS",
+      "file": "scraped_data\\prices\\PUNJAB_NATIONAL_BANK_EQ_NEW_FV_RS_2_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:17"
+    },
+    "HINDUSTAN UNILEVER LIMITED EQ F.V. RS 1": {
+      "ticker": "HINDUNILVR.NS",
+      "file": "scraped_data\\prices\\HINDUSTAN_UNILEVER_LIMITED_EQ_FV_RS_1.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:17"
+    },
+    "OSWAL AGRO MILLS LIMITED EQ": {
+      "ticker": "OSWALAGRO.NS",
+      "file": "scraped_data\\prices\\OSWAL_AGRO_MILLS_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:17"
+    },
+    "PRIMO CHEMICALS LIMITED EQ NEW FV RS. 2/-": {
+      "ticker": "PRIMO.BO",
+      "file": "scraped_data\\prices\\PRIMO_CHEMICALS_LIMITED_EQ_NEW_FV_RS_2_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:17"
+    },
+    "ADANI ENTERPRISES LIMITED EQ NEW FV RE.1/-": {
+      "ticker": "ADANIENT.NS",
+      "file": "scraped_data\\prices\\ADANI_ENTERPRISES_LIMITED_EQ_NEW_FV_RE1_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:17"
+    },
+    "ANAND RATHI SHARE AND STOCK BROKERS LIMITED ANAND RATHI SHA ANAND RATHI SHA": {
+      "ticker": "ANANDRATHI.NS",
+      "file": "scraped_data\\prices\\ANAND_RATHI_SHARE_AND_STOCK_BROKERS_LIMITED_ANAND_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:17"
+    },
+    "ARVIND FASHIONS LIMITED (FORMERLY ARVIND J&M LIMITED) EQ NEW FV RS. 4/- EQ NEW FV RS. 4/-": {
+      "ticker": "ARVIND.NS",
+      "file": "scraped_data\\prices\\ARVIND_FASHIONS_LIMITED_FORMERLY_ARVIND_JM_LIMITED.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:18"
+    },
+    "ARVIND LIMITED EQ EQ": {
+      "ticker": "ARVIND.NS",
+      "file": "scraped_data\\prices\\ARVIND_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:18"
+    },
+    "BSE LIMITED EQ NEW FV RS. 2/- EQ NEW FV RS. 2/-": {
+      "ticker": "BSE.NS",
+      "file": "scraped_data\\prices\\BSE_LIMITED_EQ_NEW_FV_RS_2__EQ_NEW_FV_RS_2_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:18"
+    },
+    "INDOSTAR CAPITAL FINANCE LIMITED EQ EQ": {
+      "ticker": "INDOSTAR.NS",
+      "file": "scraped_data\\prices\\INDOSTAR_CAPITAL_FINANCE_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:18"
+    },
+    "INOX INDIA LIMITED EQ NEW FV RS.2/-": {
+      "ticker": "INOXINDIA.NS",
+      "file": "scraped_data\\prices\\INOX_INDIA_LIMITED_EQ_NEW_FV_RS2_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:18"
+    },
+    "LAURUS LABS LIMITED EQ NEW FV RS. 2/- EQ NEW FV RS. 2/-": {
+      "ticker": "LAURUSLABS.NS",
+      "file": "scraped_data\\prices\\LAURUS_LABS_LIMITED_EQ_NEW_FV_RS_2__EQ_NEW_FV_RS_2.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:18"
+    },
+    "RBL BANK LIMITED EQ EQ": {
+      "ticker": "RBL.BO",
+      "file": "scraped_data\\prices\\RBL_BANK_LIMITED_EQ_EQ.csv",
+      "data_points": 13,
+      "downloaded_at": "2025-10-23 15:56:18"
+    },
+    "S CHAND AND COMPANY LIMITED EQ NEW FV RS. 5/- EQ NEW FV RS. 5/-": {
+      "ticker": "SCHAND.NS",
+      "file": "scraped_data\\prices\\S_CHAND_AND_COMPANY_LIMITED_EQ_NEW_FV_RS_5__EQ_NEW.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:18"
+    },
+    "SHALBY LIMITED EQ": {
+      "ticker": "SHALBY.NS",
+      "file": "scraped_data\\prices\\SHALBY_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:19"
+    },
+    "VISHAL MEGA MART LIMITED EQ EQ": {
+      "ticker": "VISHAL.BO",
+      "file": "scraped_data\\prices\\VISHAL_MEGA_MART_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:19"
+    },
+    "WAAREE ENERGIES LIMITED EQ EQ": {
+      "ticker": "WAAREE.BO",
+      "file": "scraped_data\\prices\\WAAREE_ENERGIES_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:19"
+    },
+    "APOLLO TYRES LIMITED EQ RE.1/-": {
+      "ticker": "APOLLO.NS",
+      "file": "scraped_data\\prices\\APOLLO_TYRES_LIMITED_EQ_RE1_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:19"
+    },
+    "CEAT LIMITED EQ NEW RS.10 EQ NEW RS.10": {
+      "ticker": "CEATLTD.NS",
+      "file": "scraped_data\\prices\\CEAT_LIMITED_EQ_NEW_RS10_EQ_NEW_RS10.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:19"
+    },
+    "JK LAKSHMI CEMENT LIMITED EQ NEW RS.5/-": {
+      "ticker": "JKLAKSHMI.NS",
+      "file": "scraped_data\\prices\\JK_LAKSHMI_CEMENT_LIMITED_EQ_NEW_RS5_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:19"
+    },
+    "KEC INTERNATIONAL LIMITED EQ NEW F.V. RS.2/- EQ NEW F.V. RS.2/-": {
+      "ticker": "KEC.NS",
+      "file": "scraped_data\\prices\\KEC_INTERNATIONAL_LIMITED_EQ_NEW_FV_RS2__EQ_NEW_FV.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:19"
+    },
+    "PIDILITE INDUSTRIES LIMITED EQ NEW FV RE.1/- EQ NEW FV RE.1/-": {
+      "ticker": "PIDILITIND.NS",
+      "file": "scraped_data\\prices\\PIDILITE_INDUSTRIES_LIMITED_EQ_NEW_FV_RE1__EQ_NEW_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:19"
+    },
+    "PRAKASH INDUSTRIES LIMITED EQ": {
+      "ticker": "PRAKASH.NS",
+      "file": "scraped_data\\prices\\PRAKASH_INDUSTRIES_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:20"
+    },
+    "PRAKASH PIPES LIMITED EQ EQ": {
+      "ticker": "PRAKASH.NS",
+      "file": "scraped_data\\prices\\PRAKASH_PIPES_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:20"
+    },
+    "TATA CHEMICALS LIMITED EQ EQ": {
+      "ticker": "TATACHEM.NS",
+      "file": "scraped_data\\prices\\TATA_CHEMICALS_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:20"
+    },
+    "TATA CONSUMER PRODUCTS LIMITED EQ NEW F.V. RE.1/- EQ NEW F.V. RE.1/-": {
+      "ticker": "TATACONSUM.NS",
+      "file": "scraped_data\\prices\\TATA_CONSUMER_PRODUCTS_LIMITED_EQ_NEW_FV_RE1__EQ_N.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:20"
+    },
+    "TITAN COMPANY LIMITED EQ NEW Re.1/- EQ NEW Re.1/-": {
+      "ticker": "TITAN.NS",
+      "file": "scraped_data\\prices\\TITAN_COMPANY_LIMITED_EQ_NEW_Re1__EQ_NEW_Re1_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:20"
+    },
+    "ALLCARGO LOGISTICS LIMITED EQ NEW EQ NEW": {
+      "ticker": "ALLCARGO.NS",
+      "file": "scraped_data\\prices\\ALLCARGO_LOGISTICS_LIMITED_EQ_NEW_EQ_NEW.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:20"
+    },
+    "ALLCARGO TERMINALS LIMITED EQ NEW FV RS 2/-": {
+      "ticker": "ALLCARGO.NS",
+      "file": "scraped_data\\prices\\ALLCARGO_TERMINALS_LIMITED_EQ_NEW_FV_RS_2_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:20"
+    },
+    "FORTIS HEALTHCARE LIMITED EQ EQ": {
+      "ticker": "FORTIS.NS",
+      "file": "scraped_data\\prices\\FORTIS_HEALTHCARE_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:20"
+    },
+    "INDOCO REMEDIES LIMITED EQ NEW FV RS.2/- EQ NEW FV RS.2/-": {
+      "ticker": "INDOCO.NS",
+      "file": "scraped_data\\prices\\INDOCO_REMEDIES_LIMITED_EQ_NEW_FV_RS2__EQ_NEW_FV_R.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:20"
+    },
+    "INDOWIND ENERGY LIMITED EQ EQ": {
+      "ticker": "INDOWIND.NS",
+      "file": "scraped_data\\prices\\INDOWIND_ENERGY_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:21"
+    },
+    "JET AIRWAYS (INDIA) LIMITED EQ": {
+      "ticker": "JETAIRWAYS.NS",
+      "file": "scraped_data\\prices\\JET_AIRWAYS_INDIA_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:21"
+    },
+    "ACC LIMITED EQ F.V. RS.10": {
+      "ticker": "ACC.NS",
+      "file": "scraped_data\\prices\\ACC_LIMITED_EQ_FV_RS10.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:21"
+    },
+    "AXIS BANK LIMITED EQ NE FV RS. 2/- EQ NE FV RS. 2/-": {
+      "ticker": "AXISBANK.NS",
+      "file": "scraped_data\\prices\\AXIS_BANK_LIMITED_EQ_NE_FV_RS_2__EQ_NE_FV_RS_2_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:21"
+    },
+    "BALKRISHNA INDUSTRIES LIMITED EQ NEW F.V RS.2/- EQ NEW F.V RS.2/-": {
+      "ticker": "BALKRISHNA.NS",
+      "file": "scraped_data\\prices\\BALKRISHNA_INDUSTRIES_LIMITED_EQ_NEW_FV_RS2__EQ_NE.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:21"
+    },
+    "BIOCON LIMITED EQ EQ": {
+      "ticker": "BIOCON.NS",
+      "file": "scraped_data\\prices\\BIOCON_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:21"
+    },
+    "CSB BANK LIMITED EQ": {
+      "ticker": "CSBBANK.NS",
+      "file": "scraped_data\\prices\\CSB_BANK_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:21"
+    },
+    "CYIENT LIMITED EQ NEW FV RS.5/- EQ NEW FV RS.5/-": {
+      "ticker": "CYIENT.NS",
+      "file": "scraped_data\\prices\\CYIENT_LIMITED_EQ_NEW_FV_RS5__EQ_NEW_FV_RS5_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:21"
+    },
+    "FUSION FINANCE LIMITED EQ EQ": {
+      "ticker": "FUSION.NS",
+      "file": "scraped_data\\prices\\FUSION_FINANCE_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:22"
+    },
+    "HARSHA ENGINEERS INTERNATIONAL LIMITED EQ NEW FV RS.10/-": {
+      "ticker": "HARSHA.NS",
+      "file": "scraped_data\\prices\\HARSHA_ENGINEERS_INTERNATIONAL_LIMITED_EQ_NEW_FV_R.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:22"
+    },
+    "INNOVATIVE TYRES & TUBES LIMITED EQ NEW FV RS.10/- EQ NEW FV RS.10/-": {
+      "ticker": "INNOVATIVE.NS",
+      "file": "scraped_data\\prices\\INNOVATIVE_TYRES__TUBES_LIMITED_EQ_NEW_FV_RS10__EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:22"
+    },
+    "KOTAK MAHINDRA BANK LIMITED EQ NEW F.V RS.5/- EQ NEW F.V RS.5/-": {
+      "ticker": "KOTAKBANK.NS",
+      "file": "scraped_data\\prices\\KOTAK_MAHINDRA_BANK_LIMITED_EQ_NEW_FV_RS5__EQ_NEW_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:22"
+    },
+    "NAZARA TECHNOLOGIES LIMITED EQ NEW FV RS.2/- EQ NEW FV RS.2/-": {
+      "ticker": "NAZARA.NS",
+      "file": "scraped_data\\prices\\NAZARA_TECHNOLOGIES_LIMITED_EQ_NEW_FV_RS2__EQ_NEW_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:22"
+    },
+    "POLYPLEX CORPORATION LIMITED EQ": {
+      "ticker": "POLYPLEX.NS",
+      "file": "scraped_data\\prices\\POLYPLEX_CORPORATION_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:22"
+    },
+    "POWER MECH PROJECTS LIMITED EQ EQ": {
+      "ticker": "POWERMECH.NS",
+      "file": "scraped_data\\prices\\POWER_MECH_PROJECTS_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:22"
+    },
+    "ROSSARI BIOTECH LIMITED EQ NEW FV RS. 2/- EQ NEW FV RS. 2/-": {
+      "ticker": "ROSSARI.NS",
+      "file": "scraped_data\\prices\\ROSSARI_BIOTECH_LIMITED_EQ_NEW_FV_RS_2__EQ_NEW_FV_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:23"
+    },
+    "STYRENIX PERFORMANCE MATERIALS LIMITED EQ": {
+      "ticker": "STYRENIX.NS",
+      "file": "scraped_data\\prices\\STYRENIX_PERFORMANCE_MATERIALS_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:23"
+    },
+    "ALKEM LABORATORIES LIMITED EQ": {
+      "ticker": "ALKEM.NS",
+      "file": "scraped_data\\prices\\ALKEM_LABORATORIES_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:23"
+    },
+    "AWL AGRI BUSINESS LIMITED EQ NEW FV Re.1/- EQ NEW FV Re.1/-": {
+      "ticker": "AWL.NS",
+      "file": "scraped_data\\prices\\AWL_AGRI_BUSINESS_LIMITED_EQ_NEW_FV_Re1__EQ_NEW_FV.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:23"
+    },
+    "BIRLANU LIMITED EQ EQ": {
+      "ticker": "BIRLANU.BO",
+      "file": "scraped_data\\prices\\BIRLANU_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:23"
+    },
+    "DIXON TECHNOLOGIES (INDIA) LIMITED EQ NEW FV RS.2/- EQ NEW FV RS.2/-": {
+      "ticker": "DIXON.NS",
+      "file": "scraped_data\\prices\\DIXON_TECHNOLOGIES_INDIA_LIMITED_EQ_NEW_FV_RS2__EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:23"
+    },
+    "HFCL LIMITED EQ NEW F.V.RE.1/- EQ NEW F.V.RE.1/-": {
+      "ticker": "HFCL.NS",
+      "file": "scraped_data\\prices\\HFCL_LIMITED_EQ_NEW_FVRE1__EQ_NEW_FVRE1_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:24"
+    },
+    "ICICI LOMBARD GENERAL INSURANCE COMPANY LIMITED EQ EQ": {
+      "ticker": "ICICIGI.NS",
+      "file": "scraped_data\\prices\\ICICI_LOMBARD_GENERAL_INSURANCE_COMPANY_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:24"
+    },
+    "INOX WIND LIMITED EQ EQ": {
+      "ticker": "INOXWIND.NS",
+      "file": "scraped_data\\prices\\INOX_WIND_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:24"
+    },
+    "MOIL LIMITED EQ NEW F.V. RS.10/-": {
+      "ticker": "MOIL.NS",
+      "file": "scraped_data\\prices\\MOIL_LIMITED_EQ_NEW_FV_RS10_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:24"
+    },
+    "NDR AUTO COMPONENTS LIMITED EQ EQ": {
+      "ticker": "NDRAUTO.NS",
+      "file": "scraped_data\\prices\\NDR_AUTO_COMPONENTS_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:24"
+    },
+    "PERSISTENT SYSTEMS LIMITED EQ NEW FV RS 5/- EQ NEW FV RS 5/-": {
+      "ticker": "PERSISTENT.NS",
+      "file": "scraped_data\\prices\\PERSISTENT_SYSTEMS_LIMITED_EQ_NEW_FV_RS_5__EQ_NEW_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:24"
+    },
+    "SNOWMAN LOGISTICS LIMITED EQ": {
+      "ticker": "SNOWMAN.NS",
+      "file": "scraped_data\\prices\\SNOWMAN_LOGISTICS_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:24"
+    },
+    "ARVIND SMARTSPACES LIMITED EQ NEW FV RS. 10/- EQ NEW FV RS. 10/-": {
+      "ticker": "ARVIND.NS",
+      "file": "scraped_data\\prices\\ARVIND_SMARTSPACES_LIMITED_EQ_NEW_FV_RS_10__EQ_NEW.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:24"
+    },
+    "NTPC GREEN ENERGY LIMITED EQ EQ": {
+      "ticker": "NTPC.NS",
+      "file": "scraped_data\\prices\\NTPC_GREEN_ENERGY_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:25"
+    },
+    "BERGER PAINTS INDIA LIMITED EQ NEW FV RE. 1/- EQ NEW FV RE. 1/-": {
+      "ticker": "BERGEPAINT.NS",
+      "file": "scraped_data\\prices\\BERGER_PAINTS_INDIA_LIMITED_EQ_NEW_FV_RE_1__EQ_NEW.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:25"
+    },
+    "EMBASSY DEVELOPMENTS LIMITED EQ EQ": {
+      "ticker": "EMBASSY.NS",
+      "file": "scraped_data\\prices\\EMBASSY_DEVELOPMENTS_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:25"
+    },
+    "EPIGRAL LIMITED EQ EQ": {
+      "ticker": "EPIGRAL.NS",
+      "file": "scraped_data\\prices\\EPIGRAL_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:25"
+    },
+    "MPHASIS LIMITED EQ EQ": {
+      "ticker": "MPHASIS.NS",
+      "file": "scraped_data\\prices\\MPHASIS_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:25"
+    },
+    "PARSVNATH DEVELOPERS LIMITED EQ NEW": {
+      "ticker": "PARSVNATH.NS",
+      "file": "scraped_data\\prices\\PARSVNATH_DEVELOPERS_LIMITED_EQ_NEW.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:25"
+    },
+    "SCHNEIDER ELECTRIC INFRASTRUCTURE LIMITED EQ EQ": {
+      "ticker": "SCHNEIDER.NS",
+      "file": "scraped_data\\prices\\SCHNEIDER_ELECTRIC_INFRASTRUCTURE_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:25"
+    },
+    "SIEMENS ENERGY INDIA LIMITED EQ EQ": {
+      "ticker": "SIEMENS.NS",
+      "file": "scraped_data\\prices\\SIEMENS_ENERGY_INDIA_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:26"
+    },
+    "SIEMENS LIMITED EQ NEW FV RS.2/- EQ NEW FV RS.2/-": {
+      "ticker": "SIEMENS.NS",
+      "file": "scraped_data\\prices\\SIEMENS_LIMITED_EQ_NEW_FV_RS2__EQ_NEW_FV_RS2_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:26"
+    },
+    "XCHANGING SOLUTIONS LIMITED EQ": {
+      "ticker": "XCHANGING.NS",
+      "file": "scraped_data\\prices\\XCHANGING_SOLUTIONS_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:26"
+    },
+    "AMBUJA CEMENTS LIMITED EQ NEW FV RS. 2/- EQ NEW FV RS. 2/-": {
+      "ticker": "AMBUJACEM.NS",
+      "file": "scraped_data\\prices\\AMBUJA_CEMENTS_LIMITED_EQ_NEW_FV_RS_2__EQ_NEW_FV_R.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:26"
+    },
+    "AUROBINDO PHARMA LIMITED EQ NEW F.V. RE.1/- EQ NEW F.V. RE.1/-": {
+      "ticker": "AUROPHARMA.NS",
+      "file": "scraped_data\\prices\\AUROBINDO_PHARMA_LIMITED_EQ_NEW_FV_RE1__EQ_NEW_FV_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:26"
+    },
+    "BHARAT PETROLEUM CORPORATION LIMITED EQ EQ": {
+      "ticker": "BPCL.NS",
+      "file": "scraped_data\\prices\\BHARAT_PETROLEUM_CORPORATION_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:26"
+    },
+    "CIPLA LIMITED EQ NEW FV RS.2/- EQ NEW FV RS.2/-": {
+      "ticker": "CIPLA.NS",
+      "file": "scraped_data\\prices\\CIPLA_LIMITED_EQ_NEW_FV_RS2__EQ_NEW_FV_RS2_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:26"
+    },
+    "EICHER MOTORS LIMITED EQ NEW FV RE. 1/- EQ NEW FV RE. 1/-": {
+      "ticker": "EICHERMOT.NS",
+      "file": "scraped_data\\prices\\EICHER_MOTORS_LIMITED_EQ_NEW_FV_RE_1__EQ_NEW_FV_RE.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:27"
+    },
+    "ESCORTS KUBOTA LIMITED EQ EQ": {
+      "ticker": "ESCORTS.NS",
+      "file": "scraped_data\\prices\\ESCORTS_KUBOTA_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:27"
+    },
+    "GLENMARK PHARMACEUTICALS LIMITED EQ NEW FV RE.1/- EQ NEW FV RE.1/-": {
+      "ticker": "GLENMARK.NS",
+      "file": "scraped_data\\prices\\GLENMARK_PHARMACEUTICALS_LIMITED_EQ_NEW_FV_RE1__EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:27"
+    },
+    "HAVELLS INDIA LIMITED EQ NEW FV RE. 1/- EQ NEW FV RE. 1/-": {
+      "ticker": "HAVELLS.NS",
+      "file": "scraped_data\\prices\\HAVELLS_INDIA_LIMITED_EQ_NEW_FV_RE_1__EQ_NEW_FV_RE.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:27"
+    },
+    "HCL TECHNOLOGIES LIMITED EQ F.V. RS.2/-": {
+      "ticker": "HCLTECH.NS",
+      "file": "scraped_data\\prices\\HCL_TECHNOLOGIES_LIMITED_EQ_FV_RS2_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:27"
+    },
+    "HINDALCO INDUSTRIES LIMITED EQ NEW FV RE. 1/- EQ NEW FV RE. 1/-": {
+      "ticker": "HINDALCO.NS",
+      "file": "scraped_data\\prices\\HINDALCO_INDUSTRIES_LIMITED_EQ_NEW_FV_RE_1__EQ_NEW.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:27"
+    },
+    "HINDUSTAN PETROLEUM CORPORATION LIMITED EQ EQ": {
+      "ticker": "HINDPETRO.NS",
+      "file": "scraped_data\\prices\\HINDUSTAN_PETROLEUM_CORPORATION_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:27"
+    },
+    "IDBI BANK LIMITED EQ": {
+      "ticker": "IDBI.NS",
+      "file": "scraped_data\\prices\\IDBI_BANK_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:28"
+    },
+    "INDIAN RAILWAY CATERING AND TOURISM CORPORATION LIMITED EQ NEW FV RS. 2/-": {
+      "ticker": "IRCTC.NS",
+      "file": "scraped_data\\prices\\INDIAN_RAILWAY_CATERING_AND_TOURISM_CORPORATION_LI.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:28"
+    },
+    "JK TYRE & INDUSTRIES LIMITED EQ NEW FV RS. 2/- EQ NEW FV RS. 2/-": {
+      "ticker": "JKTYRE.NS",
+      "file": "scraped_data\\prices\\JK_TYRE__INDUSTRIES_LIMITED_EQ_NEW_FV_RS_2__EQ_NEW.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:28"
+    },
+    "MARICO LIMITED NEW EQ RE.1 NEW EQ RE.1": {
+      "ticker": "MARICO.NS",
+      "file": "scraped_data\\prices\\MARICO_LIMITED_NEW_EQ_RE1_NEW_EQ_RE1.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:28"
+    },
+    "MARUTI SUZUKI INDIA LIMITED EQ EQ": {
+      "ticker": "MARUTI.NS",
+      "file": "scraped_data\\prices\\MARUTI_SUZUKI_INDIA_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:29"
+    },
+    "MRF LIMITED EQ": {
+      "ticker": "MRF.NS",
+      "file": "scraped_data\\prices\\MRF_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:29"
+    },
+    "SBI LIFE INSURANCE COMPANY LIMITED EQ EQ": {
+      "ticker": "SBILIFE.NS",
+      "file": "scraped_data\\prices\\SBI_LIFE_INSURANCE_COMPANY_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:29"
+    },
+    "TECH MAHINDRA LIMITED EQ NEW FV RS. 5/- EQ NEW FV RS. 5/-": {
+      "ticker": "TECHM.NS",
+      "file": "scraped_data\\prices\\TECH_MAHINDRA_LIMITED_EQ_NEW_FV_RS_5__EQ_NEW_FV_RS.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:29"
+    },
+    "UCO BANK EQ EQ": {
+      "ticker": "UCOBANK.NS",
+      "file": "scraped_data\\prices\\UCO_BANK_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:29"
+    },
+    "BAJAJ AUTO LIMITED EQ EQ": {
+      "ticker": "BAJAJ-AUTO.NS",
+      "file": "scraped_data\\prices\\BAJAJ_AUTO_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:29"
+    },
+    "BAJAJ FINSERV LIMITED EQ NEW FV RE.1/- EQ NEW FV RE.1/-": {
+      "ticker": "BAJAJFINSV.NS",
+      "file": "scraped_data\\prices\\BAJAJ_FINSERV_LIMITED_EQ_NEW_FV_RE1__EQ_NEW_FV_RE1.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:30"
+    },
+    "ICSA (INDIA) LTD EQ NEW RS. 2/-": {
+      "ticker": "ICSA.NS",
+      "file": "scraped_data\\prices\\ICSA_INDIA_LTD_EQ_NEW_RS_2_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:30"
+    },
+    "OPAL INDUSTRIES LIMITED EQ": {
+      "ticker": "OPAL.NS",
+      "file": "scraped_data\\prices\\OPAL_INDUSTRIES_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:30"
+    },
+    "PRECISION WIRES INDIA LIMITED EQ NEW FV Re.1/- EQ NEW FV Re.1/-": {
+      "ticker": "PRECISION.NS",
+      "file": "scraped_data\\prices\\PRECISION_WIRES_INDIA_LIMITED_EQ_NEW_FV_Re1__EQ_NE.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:30"
+    },
+    "ROLTA INDIA LIMITED EQ": {
+      "ticker": "ROLTA.NS",
+      "file": "scraped_data\\prices\\ROLTA_INDIA_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:30"
+    },
+    "SAMBHAAV MEDIA LIMITED EQ NEW FV RE.1/- EQ NEW FV RE.1/-": {
+      "ticker": "SAMBHAAV.NS",
+      "file": "scraped_data\\prices\\SAMBHAAV_MEDIA_LIMITED_EQ_NEW_FV_RE1__EQ_NEW_FV_RE.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:30"
+    },
+    "AARTI DRUGS LIMITED EQ EQ": {
+      "ticker": "AARTIDRUGS.NS",
+      "file": "scraped_data\\prices\\AARTI_DRUGS_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:30"
+    },
+    "GATEWAY DISTRIPARKS LIMITED EQ": {
+      "ticker": "GATEWAY.NS",
+      "file": "scraped_data\\prices\\GATEWAY_DISTRIPARKS_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:31"
+    },
+    "ITC HOTELS LIMITED EQ EQ": {
+      "ticker": "ITC.NS",
+      "file": "scraped_data\\prices\\ITC_HOTELS_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:31"
+    },
+    "ITC LIMITED EQ NEW FV RE.1/- EQ NEW FV RE.1/-": {
+      "ticker": "ITC.NS",
+      "file": "scraped_data\\prices\\ITC_LIMITED_EQ_NEW_FV_RE1__EQ_NEW_FV_RE1_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:31"
+    },
+    "JSW ENERGY LIMITED EQ EQ": {
+      "ticker": "JSWENERGY.NS",
+      "file": "scraped_data\\prices\\JSW_ENERGY_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:31"
+    },
+    "PUNJ LLOYD LIMITED EQ NEW FV RS.2/-": {
+      "ticker": "PUNJLLOYD.NS",
+      "file": "scraped_data\\prices\\PUNJ_LLOYD_LIMITED_EQ_NEW_FV_RS2_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:31"
+    },
+    "UNITECH LIMITED EQ NEW FV RS.2/-": {
+      "ticker": "UNITECH.NS",
+      "file": "scraped_data\\prices\\UNITECH_LIMITED_EQ_NEW_FV_RS2_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:31"
+    },
+    "PARAS PETROFILS LIMITED EQ NEW FV RE. 1/-": {
+      "ticker": "PARAS.NS",
+      "file": "scraped_data\\prices\\PARAS_PETROFILS_LIMITED_EQ_NEW_FV_RE_1_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:31"
+    },
+    "RELIANCE INDUSTRIAL INFRASTRUCTURE LIMITED EQ": {
+      "ticker": "RELIANCE.NS",
+      "file": "scraped_data\\prices\\RELIANCE_INDUSTRIAL_INFRASTRUCTURE_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:31"
+    },
+    "EXIDE INDUSTRIES LIMITED EQ NEW FV RE.1/- EQ NEW FV RE.1/-": {
+      "ticker": "EXIDEIND.NS",
+      "file": "scraped_data\\prices\\EXIDE_INDUSTRIES_LIMITED_EQ_NEW_FV_RE1__EQ_NEW_FV_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:32"
+    },
+    "LATENT VIEW ANALYTICS LIMITED EQ EQ": {
+      "ticker": "LATENTVIEW.NS",
+      "file": "scraped_data\\prices\\LATENT_VIEW_ANALYTICS_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:32"
+    },
+    "PROTEAN EGOV TECHNOLOGIES LIMITED EQ NEW FV RS.10/- EQ NEW FV RS.10/-": {
+      "ticker": "PROTEAN.BO",
+      "file": "scraped_data\\prices\\PROTEAN_EGOV_TECHNOLOGIES_LIMITED_EQ_NEW_FV_RS10__.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:32"
+    },
+    "QUICK HEAL TECHNOLOGIES LIMITED EQ EQ": {
+      "ticker": "QUICKHEAL.NS",
+      "file": "scraped_data\\prices\\QUICK_HEAL_TECHNOLOGIES_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:32"
+    },
+    "LAMBODHARA TEXTILES LIMITED EQ NEW RS. 5/- EQ NEW RS. 5/-": {
+      "ticker": "LAMBODHARA.NS",
+      "file": "scraped_data\\prices\\LAMBODHARA_TEXTILES_LIMITED_EQ_NEW_RS_5__EQ_NEW_RS.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:32"
+    },
+    "THYROCARE TECHNOLOGIES LIMITED EQ EQ": {
+      "ticker": "THYROCARE.NS",
+      "file": "scraped_data\\prices\\THYROCARE_TECHNOLOGIES_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:32"
+    },
+    "MERCATOR LIMITED EQ NEW FV RS. 1/- EQ NEW FV RS. 1/-": {
+      "ticker": "MERCATOR.NS",
+      "file": "scraped_data\\prices\\MERCATOR_LIMITED_EQ_NEW_FV_RS_1__EQ_NEW_FV_RS_1_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:32"
+    },
+    "BEML LAND ASSETS LIMITED EQ": {
+      "ticker": "BEML.NS",
+      "file": "scraped_data\\prices\\BEML_LAND_ASSETS_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:33"
+    },
+    "BEML LIMITED EQ": {
+      "ticker": "BEML.NS",
+      "file": "scraped_data\\prices\\BEML_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:33"
+    },
+    "PVR INOX LIMITED EQ EQ": {
+      "ticker": "PVRINOX.NS",
+      "file": "scraped_data\\prices\\PVR_INOX_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:33"
+    },
+    "TANLA PLATFORMS LIMITED EQ NEW RE.1/- EQ NEW RE.1/-": {
+      "ticker": "TANLA.NS",
+      "file": "scraped_data\\prices\\TANLA_PLATFORMS_LIMITED_EQ_NEW_RE1__EQ_NEW_RE1_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:33"
+    },
+    "TRENT LIMITED EQ NEW FV Re. 1/- EQ NEW FV Re. 1/-": {
+      "ticker": "TRENT.NS",
+      "file": "scraped_data\\prices\\TRENT_LIMITED_EQ_NEW_FV_Re_1__EQ_NEW_FV_Re_1_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:33"
+    },
+    "DATAMATICS GLOBAL SERVICES LIMITED EQ EQ": {
+      "ticker": "DATAMATICS.NS",
+      "file": "scraped_data\\prices\\DATAMATICS_GLOBAL_SERVICES_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:33"
+    },
+    "RAYMOND LIFESTYLE LIMITED EQ NEW FV RS 2/- EQ NEW FV RS 2/-": {
+      "ticker": "RAYMOND.NS",
+      "file": "scraped_data\\prices\\RAYMOND_LIFESTYLE_LIMITED_EQ_NEW_FV_RS_2__EQ_NEW_F.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:33"
+    },
+    "RAYMOND LIMITED EQ": {
+      "ticker": "RAYMOND.NS",
+      "file": "scraped_data\\prices\\RAYMOND_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:33"
+    },
+    "RAYMOND REALTY LIMITED EQ EQ": {
+      "ticker": "RAYMOND.NS",
+      "file": "scraped_data\\prices\\RAYMOND_REALTY_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:33"
+    },
+    "SOBHA LIMITED EQ EQ": {
+      "ticker": "SOBHA.NS",
+      "file": "scraped_data\\prices\\SOBHA_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:34"
+    },
+    "ARVIND REMEDIES LIMITED EQ NEW FV RS.10/": {
+      "ticker": "ARVIND.NS",
+      "file": "scraped_data\\prices\\ARVIND_REMEDIES_LIMITED_EQ_NEW_FV_RS10_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:34"
+    },
+    "GITANJALI GEMS LIMITED EQ": {
+      "ticker": "GITANJALI.NS",
+      "file": "scraped_data\\prices\\GITANJALI_GEMS_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:34"
+    },
+    "ISGEC HEAVY ENGINEERING LIMITED EQ NEW FV RS 1 /": {
+      "ticker": "ISGEC.NS",
+      "file": "scraped_data\\prices\\ISGEC_HEAVY_ENGINEERING_LIMITED_EQ_NEW_FV_RS_1__.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:34"
+    },
+    "MOTHERSON SUMI WIRING INDIA LIMITED EQ EQ": {
+      "ticker": "MSUMI.NS",
+      "file": "scraped_data\\prices\\MOTHERSON_SUMI_WIRING_INDIA_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:34"
+    },
+    "APOLLO HOSPITALS ENTERPRISE LIMITED EQ NEW F.V. RS.5/-": {
+      "ticker": "APOLLOHOSP.NS",
+      "file": "scraped_data\\prices\\APOLLO_HOSPITALS_ENTERPRISE_LIMITED_EQ_NEW_FV_RS5_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:34"
+    },
+    "BRITANNIA INDUSTRIES LTD EQ NEW FV RS 1 EQ NEW FV RS 1": {
+      "ticker": "BRITANNIA.NS",
+      "file": "scraped_data\\prices\\BRITANNIA_INDUSTRIES_LTD_EQ_NEW_FV_RS_1_EQ_NEW_FV_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:34"
+    },
+    "TATA ELXSI LIMITED EQ EQ": {
+      "ticker": "TATAELXSI.NS",
+      "file": "scraped_data\\prices\\TATA_ELXSI_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:34"
+    },
+    "HERO MOTOCORP LIMITED EQ FV RS 2 EQ FV RS 2": {
+      "ticker": "HEROMOTOCO.NS",
+      "file": "scraped_data\\prices\\HERO_MOTOCORP_LIMITED_EQ_FV_RS_2_EQ_FV_RS_2.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:35"
+    },
+    "POLYCAB INDIA LIMITED EQ EQ": {
+      "ticker": "POLYCAB.NS",
+      "file": "scraped_data\\prices\\POLYCAB_INDIA_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:35"
+    },
+    "R SYSTEMS INTERNATIONAL LIMITED EQ NEW FV Re.1/- EQ NEW FV Re.1/-": {
+      "ticker": "RSYSTEMS.NS",
+      "file": "scraped_data\\prices\\R_SYSTEMS_INTERNATIONAL_LIMITED_EQ_NEW_FV_Re1__EQ_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:35"
+    },
+    "AVENUE SUPERMARTS LIMITED EQ": {
+      "ticker": "DMART.NS",
+      "file": "scraped_data\\prices\\AVENUE_SUPERMARTS_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:35"
+    },
+    "MAX ESTATES LIMITED EQ EQ": {
+      "ticker": "MAXESTATES.NS",
+      "file": "scraped_data\\prices\\MAX_ESTATES_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:35"
+    },
+    "SUN PHARMA ADVANCED RESEARCH COMPANY LIMITED EQ": {
+      "ticker": "SUNPHARMA.NS",
+      "file": "scraped_data\\prices\\SUN_PHARMA_ADVANCED_RESEARCH_COMPANY_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:35"
+    },
+    "ASTER DM HEALTHCARE LIMITED EQ EQ": {
+      "ticker": "ASTERDM.NS",
+      "file": "scraped_data\\prices\\ASTER_DM_HEALTHCARE_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:35"
+    },
+    "EDUCOMP SOLUTIONS LIMITED EQ NEW F.V. RS.2/-": {
+      "ticker": "EDUCOMP.NS",
+      "file": "scraped_data\\prices\\EDUCOMP_SOLUTIONS_LIMITED_EQ_NEW_FV_RS2_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:36"
+    },
+    "ETERNAL LIMITED EQ EQ": {
+      "ticker": "ETERNAL.NS",
+      "file": "scraped_data\\prices\\ETERNAL_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:36"
+    },
+    "GOPAL SNACKS LIMITED EQ NEW FV RE. 1/- EQ NEW FV RE. 1/-": {
+      "ticker": "GOPAL.NS",
+      "file": "scraped_data\\prices\\GOPAL_SNACKS_LIMITED_EQ_NEW_FV_RE_1__EQ_NEW_FV_RE_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:36"
+    },
+    "INFIBEAM AVENUES LIMITED EQ NEW FV RE. 1/- EQ NEW FV RE. 1/-": {
+      "ticker": "INFIBEAM.NS",
+      "file": "scraped_data\\prices\\INFIBEAM_AVENUES_LIMITED_EQ_NEW_FV_RE_1__EQ_NEW_FV.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:36"
+    },
+    "SHANTI GOLD INTERNATIONAL LIMITED EQ EQ": {
+      "ticker": "SHANTI.NS",
+      "file": "scraped_data\\prices\\SHANTI_GOLD_INTERNATIONAL_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:36"
+    },
+    "WINSOME DIAMONDS AND JEWELLERY LIMITED EQ": {
+      "ticker": "WINSOME.NS",
+      "file": "scraped_data\\prices\\WINSOME_DIAMONDS_AND_JEWELLERY_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:36"
+    },
+    "GRASIM INDUSTRIES LTD EQ NEW FV RS. 2/- EQ NEW FV RS. 2/-": {
+      "ticker": "GRASIM.NS",
+      "file": "scraped_data\\prices\\GRASIM_INDUSTRIES_LTD_EQ_NEW_FV_RS_2__EQ_NEW_FV_RS.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:36"
+    },
+    "NTPC LIMITED SR-1B 7.36 BD 05OT25 FVRS1000": {
+      "ticker": "NTPC.NS",
+      "file": "scraped_data\\prices\\NTPC_LIMITED_SR1B_736_BD_05OT25_FVRS1000.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:36"
+    },
+    "APOLLO MICRO SYSTEMS LIMITED EQ NEW FV RE 1/- EQ NEW FV RE 1/-": {
+      "ticker": "APOLLO.NS",
+      "file": "scraped_data\\prices\\APOLLO_MICRO_SYSTEMS_LIMITED_EQ_NEW_FV_RE_1__EQ_NE.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:37"
+    },
+    "IGARASHI MOTORS INDIA LIMITED EQ": {
+      "ticker": "IGARASHI.NS",
+      "file": "scraped_data\\prices\\IGARASHI_MOTORS_INDIA_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:37"
+    },
+    "TRIVENI ENGINEERING AND INDUSTRIES LIMITED EQ NEW FV RS 1/- EQ NEW FV RS 1/-": {
+      "ticker": "TRIVENI.NS",
+      "file": "scraped_data\\prices\\TRIVENI_ENGINEERING_AND_INDUSTRIES_LIMITED_EQ_NEW_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:37"
+    },
+    "TRIVENI TURBINE LIMITED EQ EQ": {
+      "ticker": "TRIVENI.NS",
+      "file": "scraped_data\\prices\\TRIVENI_TURBINE_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:37"
+    },
+    "VESUVIUS INDIA LIMITED EQ NEW FV RE.1/- EQ NEW FV RE.1/-": {
+      "ticker": "VESUVIUS.NS",
+      "file": "scraped_data\\prices\\VESUVIUS_INDIA_LIMITED_EQ_NEW_FV_RE1__EQ_NEW_FV_RE.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:37"
+    },
+    "WANBURY LIMITED EQ NEW FV RS.10/- EQ NEW FV RS.10/-": {
+      "ticker": "WANBURY.NS",
+      "file": "scraped_data\\prices\\WANBURY_LIMITED_EQ_NEW_FV_RS10__EQ_NEW_FV_RS10_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:37"
+    },
+    "PTC INDIA FINANCIAL SERVICES LIMITED SR-2  OP-III  9.15 BD 30MR27 FVRS5000": {
+      "ticker": "PTC.NS",
+      "file": "scraped_data\\prices\\PTC_INDIA_FINANCIAL_SERVICES_LIMITED_SR2__OPIII__9.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:37"
+    },
+    "EMKAY GLOBAL FINANCIAL SERVICES LIMITED EQ EQ": {
+      "ticker": "EMKAY.NS",
+      "file": "scraped_data\\prices\\EMKAY_GLOBAL_FINANCIAL_SERVICES_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:37"
+    },
+    "GOKUL AGRO RESOURCES LIMITED EQ NEW FV RE.1/- EQ NEW FV RE.1/-": {
+      "ticker": "GOKUL.NS",
+      "file": "scraped_data\\prices\\GOKUL_AGRO_RESOURCES_LIMITED_EQ_NEW_FV_RE1__EQ_NEW.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:38"
+    },
+    "GOKUL REFOILS AND SOLVENT LIMITED EQ NEW F.V. RS.2/-": {
+      "ticker": "GOKUL.NS",
+      "file": "scraped_data\\prices\\GOKUL_REFOILS_AND_SOLVENT_LIMITED_EQ_NEW_FV_RS2_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:38"
+    },
+    "KERNEX MICROSYSTEMS (INDIA) LIMITED EQ EQ": {
+      "ticker": "KERNEX.NS",
+      "file": "scraped_data\\prices\\KERNEX_MICROSYSTEMS_INDIA_LIMITED_EQ_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:38"
+    },
+    "SPL INDUSTRIES LIMITED EQ": {
+      "ticker": "SPL.BO",
+      "file": "scraped_data\\prices\\SPL_INDUSTRIES_LIMITED_EQ.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:38"
+    },
+    "SUN TV NETWORK LIMITED EQ NEW RS. 5/-": {
+      "ticker": "SUNTV.NS",
+      "file": "scraped_data\\prices\\SUN_TV_NETWORK_LIMITED_EQ_NEW_RS_5_.csv",
+      "data_points": 19,
+      "downloaded_at": "2025-10-23 15:56:38"
+    }
+  },
+  "failed": [],
+  "last_run": "2025-10-23 15:56:38"
+}

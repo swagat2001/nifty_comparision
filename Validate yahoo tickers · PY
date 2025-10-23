@@ -1,0 +1,175 @@
+"""
+Ticker Validator and Merger
+Validates tickers from yahoo_tickers_failed.csv and adds working ones to database
+"""
+import pandas as pd
+import yfinance as yf
+from datetime import datetime
+import time
+import json
+import os
+
+
+def test_ticker_works(ticker, start_date='2024-04-01'):
+    """Test if a ticker actually returns data"""
+    try:
+        stock = yf.Ticker(ticker)
+        hist = stock.history(start=start_date, period='1mo')
+        if not hist.empty and len(hist) > 0:
+            return True
+    except:
+        pass
+    return False
+
+
+def validate_yahoo_tickers(csv_file):
+    """
+    Validate all tickers from the CSV file
+    Returns: working_tickers, failed_tickers
+    """
+    print("\n" + "="*80)
+    print("VALIDATING YAHOO TICKERS")
+    print("="*80)
+    
+    # Read the CSV
+    df = pd.read_csv(csv_file)
+    
+    # Skip header row if needed
+    if 'Security Name' in df['Security_Name'].values:
+        df = df[df['Security_Name'] != 'Security Name']
+    
+    print(f"\nTotal tickers to validate: {len(df)}")
+    print("Testing each ticker... (this may take a few minutes)")
+    print("="*80 + "\n")
+    
+    working = []
+    failed = []
+    
+    for idx, row in df.iterrows():
+        security_name = row['Security_Name']
+        yahoo_ticker = row['Yahoo_Ticker']
+        
+        print(f"[{idx+1:3d}/{len(df)}] {security_name[:40]:40s} -> {yahoo_ticker:15s} ", end='', flush=True)
+        
+        if test_ticker_works(yahoo_ticker):
+            working.append({
+                'Security_Name': security_name,
+                'Yahoo_Ticker': yahoo_ticker
+            })
+            print("✓")
+        else:
+            failed.append({
+                'Security_Name': security_name,
+                'Yahoo_Ticker': yahoo_ticker
+            })
+            print("✗")
+        
+        time.sleep(0.1)  # Rate limiting
+    
+    print("\n" + "="*80)
+    print("VALIDATION COMPLETE")
+    print("="*80)
+    print(f"✓ Working tickers: {len(working)}")
+    print(f"✗ Failed tickers:  {len(failed)}")
+    print(f"Success rate: {len(working)/len(df)*100:.1f}%")
+    print("="*80 + "\n")
+    
+    return working, failed
+
+
+def save_validated_tickers(working, failed, output_dir='ticker_reports'):
+    """Save validated tickers to files"""
+    os.makedirs(output_dir, exist_ok=True)
+    
+    # Save working tickers
+    working_df = pd.DataFrame(working)
+    working_file = os.path.join(output_dir, 'validated_yahoo_tickers.csv')
+    working_df.to_csv(working_file, index=False)
+    print(f"✓ Saved working tickers to: {working_file}")
+    
+    # Save failed tickers
+    failed_df = pd.DataFrame(failed)
+    failed_file = os.path.join(output_dir, 'yahoo_tickers_still_failed.csv')
+    failed_df.to_csv(failed_file, index=False)
+    print(f"✓ Saved failed tickers to: {failed_file}")
+    
+    # Generate Python code for validated_tickers.py
+    code_file = os.path.join(output_dir, 'ticker_mappings_to_add.py')
+    
+    with open(code_file, 'w', encoding='utf-8') as f:
+        f.write("# Add these mappings to validated_tickers.py\n")
+        f.write("# Copy and paste into VALIDATED_NSE_TICKERS dictionary\n\n")
+        f.write("NEW_MAPPINGS = {\n")
+        
+        for item in working:
+            security = item['Security_Name']
+            ticker = item['Yahoo_Ticker'].replace('.NS', '').replace('.BO', '')
+            # Clean security name
+            clean_name = security.split(' EQ')[0].strip()
+            f.write(f"    '{clean_name}': '{ticker}',\n")
+        
+        f.write("}\n")
+    
+    print(f"✓ Saved Python mappings to: {code_file}")
+    print("\nYou can copy the mappings from ticker_mappings_to_add.py")
+    print("and add them to validated_tickers.py")
+
+
+def merge_with_existing_database(working, validated_tickers_file='validated_tickers.py'):
+    """Generate merged database content"""
+    print("\n" + "="*80)
+    print("GENERATING MERGED DATABASE")
+    print("="*80)
+    
+    new_mappings = {}
+    for item in working:
+        security = item['Security_Name']
+        ticker = item['Yahoo_Ticker'].replace('.NS', '').replace('.BO', '')
+        clean_name = security.split(' EQ')[0].strip()
+        new_mappings[clean_name] = ticker
+    
+    print(f"\n✓ Created {len(new_mappings)} new mappings")
+    print("\nTo add these to your database:")
+    print("1. Open validated_tickers.py")
+    print("2. Copy mappings from ticker_reports/ticker_mappings_to_add.py")
+    print("3. Paste into VALIDATED_NSE_TICKERS dictionary")
+    print("="*80 + "\n")
+    
+    return new_mappings
+
+
+def main():
+    """Main validation workflow"""
+    csv_file = 'yahoo_tickers_failed.csv'
+    
+    if not os.path.exists(csv_file):
+        # Try alternate location
+        csv_file = 'C:\\Users\\Admin\\Desktop\\nifty_comparision\\yahoo_tickers_failed.csv'
+    
+    if not os.path.exists(csv_file):
+        print(f"❌ Error: Could not find {csv_file}")
+        print("Please ensure yahoo_tickers_failed.csv is in the current directory")
+        return
+    
+    print(f"✓ Found file: {csv_file}")
+    
+    # Validate tickers
+    working, failed = validate_yahoo_tickers(csv_file)
+    
+    # Save results
+    save_validated_tickers(working, failed)
+    
+    # Generate merge instructions
+    merge_with_existing_database(working)
+    
+    print("\n✅ VALIDATION COMPLETE!")
+    print("\nNext steps:")
+    print("1. Check ticker_reports/validated_yahoo_tickers.csv for working tickers")
+    print("2. Review ticker_reports/ticker_mappings_to_add.py")
+    print("3. Add new mappings to validated_tickers.py")
+    print("4. Re-run main.py to use the new tickers")
+    print()
+
+
+if __name__ == "__main__":
+    main()
