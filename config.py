@@ -1,36 +1,55 @@
 """
-Configuration file for Investment Comparison Analysis
+Configuration for Investment Comparison Analysis
+Auto-detected Excel files and sheet names
 """
+import os
+from pathlib import Path
 
-# File Paths
-HOLDINGS_FILE = r"C:\\Users\swaga\\OneDrive\\Desktop\\nifty_comparision\\Demat Holding_Nil_Trade_01.07.2025.xlsx"
-PORTFOLIO_FILE = r"C:\\Users\\swaga\\OneDrive\\Desktop\\nifty_comparision\\CURRENT_WEIGHATGE_(Aug 25).xlsx"
+# Get the directory where this script is located
+PROJECT_DIR = Path(__file__).parent.absolute()
 
-# Sheet Names
-HOLDINGS_SHEET = "DETAILED_HOLDING"
-PORTFOLIO_SHEET = "Sheet"
+# Data files - auto-detected
+HOLDINGS_FILE = PROJECT_DIR / 'Demat Holding_Nil_Trade_01.07.2025.xlsx'
+HOLDINGS_SHEET = 'DETAILED_HOLDING'
 
-# Column Names
-NAME_COL = "NAME"
-SECURITY_NAME_COL = "Security Name"
-HOLDING_COL = "Holding"
-CURRENT_VALUE_COL = "Demat Holding Vlaue (Rs.)"
+WEIGHTS_FILE = PROJECT_DIR / 'CURRENT_WEIGHATGE_(Aug 25).xlsx'
+MULTI_CAP_SHEET = 'Sheet'
+MID_SMALL_CAP_SHEET = 'Sheet'
 
-# Investment Date
-INVESTMENT_DATE = "2024-04-01"  # April 2024
+# Investment start date
+INVESTMENT_DATE = '2024-04-01'
 
-# NIFTY Indices Symbols
+# Directory structure
+DATA_DIR = PROJECT_DIR / 'data'
+OUTPUT_DIR = PROJECT_DIR / 'output'
+REPORTS_DIR = PROJECT_DIR / 'reports'
+
+# Create directories if they don't exist
+DATA_DIR.mkdir(exist_ok=True)
+OUTPUT_DIR.mkdir(exist_ok=True)
+REPORTS_DIR.mkdir(exist_ok=True)
+
+# NIFTY indices to compare (only NIFTY 50)
 NIFTY_INDICES = {
     "NIFTY 50": "^NSEI",
-    "NIFTY Small Cap 100": "^CNXSC",
-    "NIFTY Midcap 100": "^NSEMDCP50",
-    "NIFTY 100": "^CNX100"
 }
 
-# Portfolio Names
-MULTI_CAP_PORTFOLIO = "GM Multi Cap (As on 31-Aug-2025)"
-MID_SMALL_CAP_PORTFOLIO = "GM Mid & Small Cap (As on 31-Aug-2025)"
-
-# Output Settings
-OUTPUT_DIR = r"C:\\Users\\Admin\\Desktop\\nifty_comparision\\output"
-GRAPH_FILE = "investment_comparison.html"
+# Debug info
+if __name__ == "__main__":
+    print("\n" + "="*80)
+    print("CONFIGURATION CHECK")
+    print("="*80)
+    print(f"\nProject Directory: {PROJECT_DIR}")
+    print(f"\nData Files:")
+    print(f"  Holdings: {HOLDINGS_FILE}")
+    print(f"    Sheet:  'DETAILED_HOLDING'")
+    print(f"    Exists: {HOLDINGS_FILE.exists()}")
+    print(f"  Weights:  {WEIGHTS_FILE}")
+    print(f"    Multi Cap Sheet: 'Sheet'")
+    print(f"    Mid/Small Sheet: 'Sheet'")
+    print(f"    Exists: {WEIGHTS_FILE.exists()}")
+    print(f"\nDirectories:")
+    print(f"  Data:    {DATA_DIR}")
+    print(f"  Output:  {OUTPUT_DIR}")
+    print(f"  Reports: {REPORTS_DIR}")
+    print("="*80 + "\n")

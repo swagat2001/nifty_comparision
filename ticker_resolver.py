@@ -240,7 +240,7 @@ def resolve_all_tickers(holdings_df, start_date):
     return success_map, failed_list
 
 
-def save_ticker_report(success_map, failed_list, output_folder='ticker_reports'):
+def save_ticker_report(success_map, failed_list, output_folder='reports/ticker_reports'):
     """Save detailed report of ticker resolution"""
     os.makedirs(output_folder, exist_ok=True)
     

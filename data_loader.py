@@ -1,8 +1,45 @@
 """
 Module for loading data from Excel files
+Auto-detects column names and handles multiple funds in one sheet
 """
 import pandas as pd
-from config import *
+from config import HOLDINGS_FILE, HOLDINGS_SHEET, WEIGHTS_FILE
+
+
+def detect_columns(df):
+    """Auto-detect column names from dataframe"""
+    cols = {str(col).lower().strip(): col for col in df.columns}
+    
+    # Detect NAME column
+    name_col = None
+    for key in ['name', 'investor name', 'investor', 'client name']:
+        if key in cols:
+            name_col = cols[key]
+            break
+    
+    # Detect Security Name column
+    security_col = None
+    for key in ['security name', 'security', 'stock name', 'stock', 'company', 'scrip name']:
+        if key in cols:
+            security_col = cols[key]
+            break
+    
+    # Detect Holding/Quantity column
+    holding_col = None
+    for key in ['holding', 'holdings', 'quantity', 'qty', 'shares']:
+        if key in cols:
+            holding_col = cols[key]
+            break
+    
+    # Detect Current Value column
+    value_col = None
+    for key in ['demat holding vlaue (rs.)', 'current value', 'value', 'market value', 
+                'holding value', 'amount', 'demat holding value']:
+        if key in cols:
+            value_col = cols[key]
+            break
+    
+    return name_col, security_col, holding_col, value_col
 
 
 def load_holdings_data():
@@ -18,70 +55,143 @@ def load_holdings_data():
         # Clean column names (remove extra spaces)
         df.columns = df.columns.str.strip()
         
-        # Filter out rows with empty names or holdings
-        df = df.dropna(subset=[NAME_COL, HOLDING_COL, CURRENT_VALUE_COL])
+        # Auto-detect columns
+        name_col, security_col, holding_col, value_col = detect_columns(df)
         
-        # Convert holdings and current value to numeric
-        df[HOLDING_COL] = pd.to_numeric(df[HOLDING_COL], errors='coerce')
-        df[CURRENT_VALUE_COL] = pd.to_numeric(df[CURRENT_VALUE_COL], errors='coerce')
+        if not all([security_col, holding_col, value_col]):
+            print("⚠️  Could not auto-detect all required columns")
+            print(f"Available columns: {df.columns.tolist()}")
+            raise ValueError("Missing required columns")
+        
+        # Rename to standard names for easier processing
+        rename_map = {}
+        if name_col:
+            rename_map[name_col] = 'NAME'
+        if security_col:
+            rename_map[security_col] = 'Security Name'
+        if holding_col:
+            rename_map[holding_col] = 'Holding'
+        if value_col:
+            rename_map[value_col] = 'Demat Holding Vlaue (Rs.)'
+        
+        df = df.rename(columns=rename_map)
+        
+        # Filter out rows with empty values
+        required_cols = ['Security Name', 'Holding', 'Demat Holding Vlaue (Rs.)']
+        if 'NAME' in df.columns:
+            required_cols.insert(0, 'NAME')
+        
+        df = df.dropna(subset=required_cols)
+        
+        # Convert to numeric
+        df['Holding'] = pd.to_numeric(df['Holding'], errors='coerce')
+        df['Demat Holding Vlaue (Rs.)'] = pd.to_numeric(df['Demat Holding Vlaue (Rs.)'], errors='coerce')
+        
+        # Remove any rows that became NaN after conversion
+        df = df.dropna(subset=['Holding', 'Demat Holding Vlaue (Rs.)'])
+        
+        print(f"  ✓ Loaded {len(df)} holdings")
+        print(f"  ✓ Columns used: {', '.join(rename_map.keys())}")
         
         return df
+        
     except Exception as e:
         print(f"Error loading holdings data: {e}")
         raise
 
 
-def load_portfolio_weights():
+def load_both_funds_from_sheet(weights_file):
     """
-    Load portfolio weightages from the CURRENT_WEIGHATGE Excel file
+    Load BOTH fund weights from the same sheet
+    Sheet has Multi Cap at top, Mid & Small Cap below it
     
     Returns:
-        tuple: (multi_cap_df, mid_small_cap_df)
+        tuple: (multi_cap_weights, mid_small_weights)
     """
     try:
         # Read the entire sheet
-        df = pd.read_excel(PORTFOLIO_FILE, sheet_name=PORTFOLIO_SHEET, header=None)
+        df = pd.read_excel(weights_file, sheet_name='Sheet', header=None)
         
-        # Find the starting rows for each portfolio
+        # Find the two fund sections
         multi_cap_start = None
-        mid_small_cap_start = None
+        mid_small_start = None
         
         for idx, row in df.iterrows():
-            row_str = ' '.join(row.astype(str).values)
-            if "GM Multi Cap" in row_str and "As on 31-Aug-2025" in row_str:
-                multi_cap_start = idx + 1  # Header is next row
-            elif "GM Mid & Small Cap" in row_str and "As on 31-Aug-2025" in row_str:
-                mid_small_cap_start = idx + 1
+            row_str = ' '.join(str(cell) for cell in row if pd.notna(cell))
+            
+            if 'GM Multi Cap' in row_str and 'Aug-2025' in row_str:
+                multi_cap_start = idx + 1  # Next row is header
+            elif 'GM Mid & Small Cap' in row_str and 'Aug-2025' in row_str:
+                mid_small_start = idx + 1  # Next row is header
         
-        # Extract Multi Cap portfolio
-        multi_cap_df = None
-        if multi_cap_start is not None:
-            # Read from the start position
-            temp_df = pd.read_excel(PORTFOLIO_FILE, sheet_name=PORTFOLIO_SHEET, 
-                                   header=multi_cap_start, nrows=20)
-            # Find where the data ends (Total row or empty rows)
-            end_idx = temp_df[temp_df.iloc[:, 1].astype(str).str.contains('Total', na=False, case=False)].index
-            if len(end_idx) > 0:
-                multi_cap_df = temp_df.iloc[:end_idx[0]]
-            else:
-                multi_cap_df = temp_df.dropna(how='all')
+        if not multi_cap_start or not mid_small_start:
+            print(f"⚠️  Could not find fund sections")
+            print(f"   Multi Cap start: {multi_cap_start}")
+            print(f"   Mid & Small start: {mid_small_start}")
+            return {}, {}
         
-        # Extract Mid & Small Cap portfolio
-        mid_small_cap_df = None
-        if mid_small_cap_start is not None:
-            temp_df = pd.read_excel(PORTFOLIO_FILE, sheet_name=PORTFOLIO_SHEET, 
-                                   header=mid_small_cap_start, nrows=20)
-            end_idx = temp_df[temp_df.iloc[:, 1].astype(str).str.contains('Total', na=False, case=False)].index
-            if len(end_idx) > 0:
-                mid_small_cap_df = temp_df.iloc[:end_idx[0]]
-            else:
-                mid_small_cap_df = temp_df.dropna(how='all')
+        # Extract Multi Cap Fund
+        multi_cap_df = pd.read_excel(weights_file, sheet_name='Sheet', 
+                                     header=multi_cap_start, 
+                                     nrows=mid_small_start - multi_cap_start - 3)  # Stop before next fund
         
-        return multi_cap_df, mid_small_cap_df
+        # Extract Mid & Small Cap Fund
+        mid_small_df = pd.read_excel(weights_file, sheet_name='Sheet', 
+                                     header=mid_small_start, 
+                                     nrows=20)  # Read up to 20 rows or until Total
+        
+        # Clean both dataframes
+        def extract_weights(df, fund_name):
+            # Remove rows with 'Total'
+            df = df[~df.iloc[:, 0].astype(str).str.contains('Total', na=False, case=False)]
+            
+            # Find Scrip Name / Security Name column and Weightage column
+            cols = {str(col).lower().strip(): col for col in df.columns}
+            
+            scrip_col = None
+            for key in ['scrip name', 'security name', 'company']:
+                if key in cols:
+                    scrip_col = cols[key]
+                    break
+            
+            weight_col = None
+            for key in ['weightage', '% to net assets', 'weight']:
+                if key in cols:
+                    weight_col = cols[key]
+                    break
+            
+            if not scrip_col or not weight_col:
+                print(f"  ⚠️  Could not find columns in {fund_name}")
+                print(f"     Available: {df.columns.tolist()}")
+                return {}
+            
+            # Create weights dictionary
+            weights = {}
+            for _, row in df.iterrows():
+                security = row[scrip_col]
+                weight = row[weight_col]
+                
+                if pd.notna(security) and pd.notna(weight):
+                    try:
+                        weights[str(security).strip()] = float(weight)
+                    except:
+                        continue
+            
+            return weights
+        
+        multi_cap_weights = extract_weights(multi_cap_df, "GM Multi Cap Fund")
+        mid_small_weights = extract_weights(mid_small_df, "GM Mid & Small Cap Fund")
+        
+        print(f"  ✓ GM Multi Cap Fund: {len(multi_cap_weights)} securities")
+        print(f"  ✓ GM Mid & Small Cap Fund: {len(mid_small_weights)} securities")
+        
+        return multi_cap_weights, mid_small_weights
         
     except Exception as e:
-        print(f"Error loading portfolio weights: {e}")
-        raise
+        print(f"  ⚠️  Error loading funds: {e}")
+        import traceback
+        traceback.print_exc()
+        return {}, {}
 
 
 def get_investor_summary(holdings_df):
@@ -94,11 +204,39 @@ def get_investor_summary(holdings_df):
     Returns:
         pd.DataFrame: Summary grouped by investor name
     """
-    summary = holdings_df.groupby(NAME_COL).agg({
-        CURRENT_VALUE_COL: 'sum',
-        HOLDING_COL: 'count'
+    if 'NAME' not in holdings_df.columns:
+        # No investor names, return single summary
+        return pd.DataFrame([{
+            'Investor Name': 'Portfolio',
+            'Current Total Value': holdings_df['Demat Holding Vlaue (Rs.)'].sum(),
+            'Number of Holdings': len(holdings_df)
+        }])
+    
+    summary = holdings_df.groupby('NAME').agg({
+        'Demat Holding Vlaue (Rs.)': 'sum',
+        'Holding': 'count'
     }).reset_index()
     
     summary.columns = ['Investor Name', 'Current Total Value', 'Number of Holdings']
     
     return summary
+
+
+if __name__ == "__main__":
+    # Test loading
+    print("\n" + "="*80)
+    print("TESTING DATA LOADER")
+    print("="*80)
+    
+    try:
+        holdings_df = load_holdings_data()
+        print(f"\n✓ Holdings loaded successfully")
+        print(f"  Shape: {holdings_df.shape}")
+        
+        multi_cap, mid_small = load_both_funds_from_sheet(WEIGHTS_FILE)
+        print(f"\n✓ Funds loaded successfully")
+        
+    except Exception as e:
+        print(f"\n✗ Error: {e}")
+    
+    print("\n" + "="*80 + "\n")
