@@ -133,31 +133,38 @@ def load_both_funds_from_sheet(weights_file):
         # Extract Multi Cap Fund
         multi_cap_df = pd.read_excel(weights_file, sheet_name='Sheet', 
                                      header=multi_cap_start, 
-                                     nrows=mid_small_start - multi_cap_start - 3)  # Stop before next fund
+                                     nrows=mid_small_start - multi_cap_start - 3)
         
         # Extract Mid & Small Cap Fund
         mid_small_df = pd.read_excel(weights_file, sheet_name='Sheet', 
                                      header=mid_small_start, 
-                                     nrows=20)  # Read up to 20 rows or until Total
+                                     nrows=20)
         
         # Clean both dataframes
         def extract_weights(df, fund_name):
-            # Remove rows with 'Total'
-            df = df[~df.iloc[:, 0].astype(str).str.contains('Total', na=False, case=False)]
-            
-            # Find Scrip Name / Security Name column and Weightage column
-            cols = {str(col).lower().strip(): col for col in df.columns}
-            
+            # First, drop rows where Scrip Name column is NaN
+            # Find Scrip Name column first
             scrip_col = None
-            for key in ['scrip name', 'security name', 'company']:
-                if key in cols:
-                    scrip_col = cols[key]
+            for col_name in df.columns:
+                col_lower = str(col_name).lower().strip()
+                if 'scrip name' in col_lower or 'security name' in col_lower:
+                    scrip_col = col_name
                     break
             
+            if scrip_col:
+                df = df.dropna(subset=[scrip_col])
+            
+            # Remove rows with 'Total' in first column or scrip column
+            df = df[~df.iloc[:, 0].astype(str).str.contains('Total', na=False, case=False)]
+            if scrip_col:
+                df = df[~df[scrip_col].astype(str).str.contains('Total', na=False, case=False)]
+            
+            # Find Weightage column - use substring matching
             weight_col = None
-            for key in ['weightage', '% to net assets', 'weight']:
-                if key in cols:
-                    weight_col = cols[key]
+            for col_name in df.columns:
+                col_lower = str(col_name).lower().strip()
+                if 'weightage' in col_lower or 'allocation' in col_lower:
+                    weight_col = col_name
                     break
             
             if not scrip_col or not weight_col:
@@ -165,17 +172,33 @@ def load_both_funds_from_sheet(weights_file):
                 print(f"     Available: {df.columns.tolist()}")
                 return {}
             
-            # Create weights dictionary
+            print(f"  ✓ {fund_name}: Using '{scrip_col}' and '{weight_col}'")
+            
+            # Create weights dictionary - with extra validation
             weights = {}
             for _, row in df.iterrows():
                 security = row[scrip_col]
                 weight = row[weight_col]
                 
-                if pd.notna(security) and pd.notna(weight):
-                    try:
-                        weights[str(security).strip()] = float(weight)
-                    except:
-                        continue
+                # Skip if either is NaN
+                if pd.isna(security) or pd.isna(weight):
+                    continue
+                
+                # Convert to string and strip
+                security_str = str(security).strip()
+                
+                # Skip if empty or looks like garbage
+                if not security_str or security_str.lower() in ['nan', 'total', '']:
+                    continue
+                
+                # Convert weight to float
+                try:
+                    weight_float = float(weight)
+                    # Only add if weight is positive
+                    if weight_float > 0:
+                        weights[security_str] = weight_float
+                except (ValueError, TypeError):
+                    continue
             
             return weights
         

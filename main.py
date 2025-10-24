@@ -10,7 +10,7 @@ from config import INVESTMENT_DATE, OUTPUT_DIR, WEIGHTS_FILE
 from data_loader import load_holdings_data, load_both_funds_from_sheet
 from market_data import fetch_nifty_data
 from ticker_resolver import resolve_all_tickers, save_ticker_report
-from data_scraper import scrape_all_stocks, load_scraped_data, get_scraper_stats
+from nse_data_loader import load_all_nse_data, get_nse_data_stats
 from smart_calculator import calculate_portfolio_with_partial_data, calculate_coverage_stats, export_coverage_report
 from visualizer import create_fund_comparison_chart, save_chart
 
@@ -101,19 +101,15 @@ def main():
     
     save_ticker_report(success_map, failed_list)
     
-    # Step 4: Fetch/Load Stock Data
-    print("\nStep 4: Stock data acquisition...")
+    # Step 4: Load Stock Data from NSE Directory
+    print("\nStep 4: Loading stock data from NSE directory...")
     
-    scraper_stats = get_scraper_stats()
+    # Show NSE data stats
+    nse_stats = get_nse_data_stats()
+    print(f"  Available NSE files: {nse_stats['total_files']}")
     
-    if scraper_stats['total_downloaded'] > 0:
-        print(f"  Found {scraper_stats['total_downloaded']} scraped securities")
-        print(f"  Last scraped: {scraper_stats['last_run']}")
-        stock_data = load_scraped_data()
-    else:
-        print("  No scraped data found. Downloading now...")
-        scrape_all_stocks(success_map, INVESTMENT_DATE)
-        stock_data = load_scraped_data()
+    # Load all stock data from NSE directory
+    stock_data = load_all_nse_data(success_map, INVESTMENT_DATE)
     
     if len(stock_data) == 0:
         print("\n❌ No stock data available")

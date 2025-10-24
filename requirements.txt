@@ -1,7 +1,19 @@
-openpyxl>=3.1.2
+# Core Data Processing
 pandas>=2.2.0
-plotly>=5.18.0
-yfinance>=0.2.40
 numpy>=1.26.0
-kaleido>=0.2.1
+openpyxl>=3.1.2
+
+# Financial Data
+yfinance>=0.2.40
 requests>=2.31.0
+
+# Visualization - TradingView style charts
+plotly>=5.18.0
+kaleido>=0.2.1
+
+# Additional utilities
+python-dateutil>=2.8.2
+pytz>=2024.1
+
+# Optional - for better performance
+numba>=0.59.0

@@ -1,4 +1,4 @@
-#!C:\Users\swaga\OneDrive\Desktop\nifty_comparision\venv\Scripts\python.exe
+#!C:\Users\Admin\Desktop\nifty_comparision\venv\Scripts\python.exe
 
 import datetime
 import os
