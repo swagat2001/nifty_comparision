@@ -190,6 +190,7 @@ def create_interactive_comparison_dashboard(viz_data):
         )
     
     # Update layout with TradingView styling
+        # Update layout with TradingView styling
     fig.update_layout(
         title={
             'text': '<b>Investment Portfolio Comparison Dashboard</b><br>' +
@@ -239,8 +240,10 @@ def create_interactive_comparison_dashboard(viz_data):
             showline=True,
             linewidth=1,
             linecolor='#2A2E39',
-            title='<b>Cumulative Return (%)</b>',
-            titlefont=dict(color='#787B86')
+            title={
+                'text': '<b>Cumulative Return (%)</b>',
+                'font': {'color': '#787B86'}
+            }
         ),
         xaxis2=dict(
             showgrid=True,
@@ -251,8 +254,10 @@ def create_interactive_comparison_dashboard(viz_data):
             showgrid=True,
             gridwidth=1,
             gridcolor='#2A2E39',
-            title='<b>Monthly Change (%)</b>',
-            titlefont=dict(color='#787B86')
+            title={
+                'text': '<b>Monthly Change (%)</b>',
+                'font': {'color': '#787B86'}
+            }
         ),
         updatemenus=[
             dict(
@@ -289,6 +294,7 @@ def create_interactive_comparison_dashboard(viz_data):
             ),
         ]
     )
+
     
     # Add annotations for key statistics
     if len(investors) > 0:

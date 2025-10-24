@@ -99,6 +99,10 @@ def calculate_monthly_returns(data_series, start_date='2024-04-01'):
     if not isinstance(data_series.index, pd.DatetimeIndex):
         data_series.index = pd.to_datetime(data_series.index)
     
+    # Remove timezone info if present to avoid comparison issues
+    if hasattr(data_series.index, 'tz') and data_series.index.tz is not None:
+        data_series.index = data_series.index.tz_localize(None)
+    
     # Filter data from start date
     start_dt = pd.to_datetime(start_date)
     data_series = data_series[data_series.index >= start_dt]
@@ -146,7 +150,11 @@ def calculate_investor_portfolios(holdings_df, stock_data, investment_date='2024
                 quantity = row['Holding']
                 
                 if security in stock_data:
-                    security_value = stock_data[security] * quantity
+                    # Get security data and remove timezone if present
+                    security_series = stock_data[security].copy()
+                    if hasattr(security_series.index, 'tz') and security_series.index.tz is not None:
+                        security_series.index = security_series.index.tz_localize(None)
+                    security_value = security_series * quantity
                     
                     if portfolio_value is None:
                         portfolio_value = security_value.copy()
@@ -166,7 +174,11 @@ def calculate_investor_portfolios(holdings_df, stock_data, investment_date='2024
             quantity = row['Holding']
             
             if security in stock_data:
-                security_value = stock_data[security] * quantity
+                # Get security data and remove timezone if present
+                security_series = stock_data[security].copy()
+                if hasattr(security_series.index, 'tz') and security_series.index.tz is not None:
+                    security_series.index = security_series.index.tz_localize(None)
+                security_value = security_series * quantity
                 
                 if portfolio_value is None:
                     portfolio_value = security_value.copy()
@@ -201,7 +213,11 @@ def calculate_fund_portfolio(stock_data, fund_weights, initial_investment, inves
     all_dates = set()
     for security_name in fund_weights.keys():
         if security_name in stock_data:
-            dates = stock_data[security_name].index[stock_data[security_name].index >= investment_dt]
+            # Remove timezone if present
+            security_series = stock_data[security_name].copy()
+            if hasattr(security_series.index, 'tz') and security_series.index.tz is not None:
+                security_series.index = security_series.index.tz_localize(None)
+            dates = security_series.index[security_series.index >= investment_dt]
             all_dates.update(dates)
     
     if not all_dates:
@@ -215,7 +231,11 @@ def calculate_fund_portfolio(stock_data, fund_weights, initial_investment, inves
     for security_name, weight in normalized_weights.items():
         if security_name in stock_data:
             # Get security data
-            security_data = stock_data[security_name]
+            security_data = stock_data[security_name].copy()
+            
+            # Remove timezone if present
+            if hasattr(security_data.index, 'tz') and security_data.index.tz is not None:
+                security_data.index = security_data.index.tz_localize(None)
             
             # Get initial price
             valid_dates = security_data.index >= investment_dt

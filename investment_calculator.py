@@ -25,7 +25,12 @@ def get_april_2024_price(stock_data, security_name, investment_date='2024-04-01'
     if security_name not in stock_data:
         return None
     
-    price_series = stock_data[security_name]
+    price_series = stock_data[security_name].copy()
+    
+    # Remove timezone if present
+    if hasattr(price_series.index, 'tz') and price_series.index.tz is not None:
+        price_series.index = price_series.index.tz_localize(None)
+    
     investment_dt = pd.to_datetime(investment_date)
     
     # Try to get exact date first

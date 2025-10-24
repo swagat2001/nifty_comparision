@@ -25,6 +25,10 @@ def calculate_monthly_performance(portfolio_series, start_date='2024-04-01'):
     if not isinstance(portfolio_series.index, pd.DatetimeIndex):
         portfolio_series.index = pd.to_datetime(portfolio_series.index)
     
+    # Remove timezone if present to avoid comparison issues
+    if hasattr(portfolio_series.index, 'tz') and portfolio_series.index.tz is not None:
+        portfolio_series.index = portfolio_series.index.tz_localize(None)
+    
     # Filter from start date
     start_dt = pd.to_datetime(start_date)
     portfolio_series = portfolio_series[portfolio_series.index >= start_dt]
@@ -121,8 +125,8 @@ def compare_with_benchmarks(investor_performance, benchmark_performance):
     Compare investor performance with benchmarks
     
     Args:
-        investor_performance: Dict of investor monthly performance
-        benchmark_performance: Dict of benchmark monthly performance
+        investor_performance: Dict of investor monthly performance (DataFrames)
+        benchmark_performance: Dict of benchmark monthly performance (Series of returns)
         
     Returns:
         DataFrame with comparison metrics
@@ -143,13 +147,20 @@ def compare_with_benchmarks(investor_performance, benchmark_performance):
     
     # Calculate comparison metrics
     for investor_name, investor_metrics in investor_performance.items():
-        for benchmark_name, benchmark_metrics in benchmark_performance.items():
+        for benchmark_name, benchmark_series in benchmark_performance.items():
             # Align data to common months
             investor_returns = investor_metrics.reindex(common_months)['Cumulative_Return'].fillna(0)
-            benchmark_returns = benchmark_metrics.reindex(common_months)['Cumulative_Return'].fillna(0)
+            
+            # For benchmarks (Series), calculate cumulative returns
+            # benchmark_series contains monthly returns, need to convert to cumulative
+            benchmark_aligned = benchmark_series.reindex(common_months).fillna(0)
+            
+            # Calculate cumulative return from monthly returns
+            # Cumulative return = (1 + r1) * (1 + r2) * ... - 1
+            benchmark_cumulative = ((1 + benchmark_aligned / 100).cumprod() - 1) * 100
             
             # Calculate alpha (excess return)
-            alpha = investor_returns - benchmark_returns
+            alpha = investor_returns - benchmark_cumulative
             
             # Count outperformance months
             outperform_months = (alpha > 0).sum()
@@ -159,7 +170,7 @@ def compare_with_benchmarks(investor_performance, benchmark_performance):
                 'Investor': investor_name,
                 'Benchmark': benchmark_name,
                 'Final_Investor_Return': investor_returns.iloc[-1] if len(investor_returns) > 0 else 0,
-                'Final_Benchmark_Return': benchmark_returns.iloc[-1] if len(benchmark_returns) > 0 else 0,
+                'Final_Benchmark_Return': benchmark_cumulative.iloc[-1] if len(benchmark_cumulative) > 0 else 0,
                 'Alpha': alpha.iloc[-1] if len(alpha) > 0 else 0,
                 'Outperform_Months': outperform_months,
                 'Total_Months': total_months,
@@ -168,6 +179,7 @@ def compare_with_benchmarks(investor_performance, benchmark_performance):
             })
     
     return pd.DataFrame(comparison_data)
+
 
 
 def generate_monthly_report(monthly_performance, comparison_df, output_dir='reports'):

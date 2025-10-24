@@ -1,4 +1,5 @@
-Basic Materials (363 stocks)
+
+Basic Materials (364 stocks)
 ============================================================
   - 20MICRONS.NS
   - AARTIIND.NS
@@ -9,6 +10,7 @@ Basic Materials (363 stocks)
   - ACI.NS
   - ACL.NS
   - ACUTAAS.NS
+  - ADVANCE.NS
   - ADVENZYMES.NS
   - AEROENTER.NS
   - AETHER.NS
@@ -443,9 +445,8 @@ Communication Services (76 stocks)
   - ZEEL.NS
   - ZEEMEDIA.NS
 
-Consumer Cyclical (422 stocks)
+Consumer Cyclical (419 stocks)
 ============================================================
-  - AARVEEDEN.NS
   - ABCOTS.NS
   - ABFRL.NS
   - ABLBL.NS
@@ -490,7 +491,6 @@ Consumer Cyclical (422 stocks)
   - BANCOINDIA.NS
   - BANG.NS
   - BANSWRAS.NS
-  - BARBEQUE.NS
   - BASML.NS
   - BATAINDIA.NS
   - BBTCL.NS
@@ -537,14 +537,12 @@ Consumer Cyclical (422 stocks)
   - DELTACORP.NS
   - DEVYANI.NS
   - DIGIDRIVE.NS
-  - DIGJAMLMTD.NS
   - DIVGIITTS.NS
   - DOLLAR.NS
   - DONEAR.NS
   - DPABHUSHAN.NS
   - DYNAMATECH.NS
   - EASEMYTRIP.NS
-  - EASTSILK.NS
   - EICHERMOT.NS
   - EIHAHOTELS.NS
   - EIHOTEL.NS
@@ -811,7 +809,6 @@ Consumer Cyclical (422 stocks)
   - SYMPHONY.NS
   - TAJGVK.NS
   - TALBROAUTO.NS
-  - TATAMOTORS.NS
   - TBOTEK.NS
   - TBZ.NS
   - TCPLPACK.NS
@@ -834,6 +831,7 @@ Consumer Cyclical (422 stocks)
   - TVSMOTOR.NS
   - TVSSRICHAK.NS
   - UCAL.NS
+  - UFBL.NS
   - UFLEX.NS
   - UNITEDPOLY.NS
   - UNOMINDA.NS
@@ -845,6 +843,7 @@ Consumer Cyclical (422 stocks)
   - VARROC.NS
   - VCL.NS
   - VENTIVE.NS
+  - VGL.NS
   - VHLTD.NS
   - VINNY.NS
   - VIPCLOTHNG.NS
@@ -862,13 +861,13 @@ Consumer Cyclical (422 stocks)
   - WHIRLPOOL.NS
   - WINSOME.NS
   - WONDERLA.NS
-  - WORTH.NS
+  - WORTHPERI.NS
   - YATRA.NS
   - ZENITHEXPO.NS
   - ZFCVINDIA.NS
   - ZODIACLOTH.NS
 
-Consumer Defensive (154 stocks)
+Consumer Defensive (155 stocks)
 ============================================================
   - ABDL.NS
   - ADFFOODS.NS
@@ -943,6 +942,7 @@ Consumer Defensive (154 stocks)
   - HONASA.NS
   - IFBAGRO.NS
   - ITC.NS
+  - JARO.NS
   - JAYSREETEA.NS
   - JHS.NS
   - JYOTHYLAB.NS
@@ -1065,7 +1065,7 @@ Energy (37 stocks)
   - TRUALT.NS
   - UNIDT.NS
 
-Financial Services (227 stocks)
+Financial Services (231 stocks)
 ============================================================
   - 21STCENMGM.NS
   - 360ONE.NS
@@ -1103,6 +1103,7 @@ Financial Services (227 stocks)
   - BSE.NS
   - CANBK.NS
   - CANFINHOME.NS
+  - CANHLIFE.NS
   - CAPITALSFB.NS
   - CAPTRUST.NS
   - CARERATING.NS
@@ -1116,6 +1117,7 @@ Financial Services (227 stocks)
   - CIFL.NS
   - CONSOFINVT.NS
   - CPCAP.NS
+  - CRAMC.NS
   - CREDITACC.NS
   - CREST.NS
   - CRISIL.NS
@@ -1213,6 +1215,7 @@ Financial Services (227 stocks)
   - MCX.NS
   - MFSL.NS
   - MONARCH.NS
+  - MONEYBOXX.NS
   - MOTILALOFS.NS
   - MUFIN.NS
   - MUTHOOTCAP.NS
@@ -1268,9 +1271,9 @@ Financial Services (227 stocks)
   - STEL.NS
   - SUMMITSEC.NS
   - SUNDARMFIN.NS
-  - SUNDARMHLD.NS
   - SURYODAY.NS
   - SYSTMTXC.NS
+  - TATACAP.NS
   - TATAINVEST.NS
   - TCIFINANCE.NS
   - TEAMGTY.NS
@@ -1280,6 +1283,7 @@ Financial Services (227 stocks)
   - THEINVEST.NS
   - TMB.NS
   - TRU.NS
+  - TSFINV.NS
   - UCOBANK.NS
   - UGROCAP.NS
   - UJJIVANSFB.NS
@@ -1295,7 +1299,7 @@ Financial Services (227 stocks)
   - WILLAMAGOR.NS
   - YESBANK.NS
 
-Healthcare (153 stocks)
+Healthcare (154 stocks)
 ============================================================
   - AAREYDRUGS.NS
   - AARTIDRUGS.NS
@@ -1408,6 +1412,7 @@ Healthcare (153 stocks)
   - PPLPHARMA.NS
   - RAINBOW.NS
   - RPGLIFE.NS
+  - RUBICON.NS
   - SAGILITY.NS
   - SAILIFE.NS
   - SAKAR.NS
@@ -1451,7 +1456,7 @@ Healthcare (153 stocks)
   - ZOTA.NS
   - ZYDUSLIFE.NS
 
-Industrials (450 stocks)
+Industrials (451 stocks)
 ============================================================
   - 3MINDIA.NS
   - A2ZINFRA.NS
@@ -1496,6 +1501,7 @@ Industrials (450 stocks)
   - ATL.NS
   - ATLANTAA.NS
   - ATLANTAELE.NS
+  - AURIGROW.NS
   - AVG.NS
   - AWFIS.NS
   - AWHCL.NS
@@ -1601,7 +1607,6 @@ Industrials (450 stocks)
   - GLOTTIS.NS
   - GMMPFAUDLR.NS
   - GMRAIRPORT.NS
-  - GODHA.NS
   - GODREJIND.NS
   - GPPL.NS
   - GPTINFRA.NS
@@ -1660,7 +1665,6 @@ Industrials (450 stocks)
   - JKIL.NS
   - JKIPL.NS
   - JNKINDIA.NS
-  - JPASSOCIAT.NS
   - JSWHL.NS
   - JSWINFRA.NS
   - JWL.NS
@@ -1710,6 +1714,7 @@ Industrials (450 stocks)
   - MANINFRA.NS
   - MANUGRAPH.NS
   - MARINE.NS
+  - MARKOLINES.NS
   - MAZDA.NS
   - MAZDOCK.NS
   - MBEL.NS
@@ -1740,6 +1745,7 @@ Industrials (450 stocks)
   - NRL.NS
   - OBCL.NS
   - OLECTRA.NS
+  - OMFREIGHT.NS
   - OMINFRAL.NS
   - ONEPOINT.NS
   - ORIENTALTL.NS
@@ -1904,7 +1910,7 @@ Industrials (450 stocks)
   - ZENTEC.NS
   - ZUARIIND.NS
 
-Real Estate (79 stocks)
+Real Estate (81 stocks)
 ============================================================
   - AGIIL.NS
   - AJMERA.NS
@@ -1985,8 +1991,10 @@ Real Estate (79 stocks)
   - UMIYA-MRO.NS
   - UNITECH.NS
   - VIPULLTD.NS
+  - WEWORK.NS
+  - YAARI.NS
 
-Technology (170 stocks)
+Technology (172 stocks)
 ============================================================
   - 3IINFOLTD.NS
   - 63MOONS.NS
@@ -2058,6 +2066,7 @@ Technology (170 stocks)
   - INTENTECH.NS
   - IRIS.NS
   - ITI.NS
+  - IVALUE.NS
   - IZMO.NS
   - KAVDEFENCE.NS
   - KAYNES.NS
@@ -2067,6 +2076,7 @@ Technology (170 stocks)
   - KPITTECH.NS
   - KRN.NS
   - KSOLVES.NS
+  - LGEINDIA.NS
   - LTIM.NS
   - LTTS.NS
   - MAPMYINDIA.NS
@@ -2119,10 +2129,12 @@ Technology (170 stocks)
   - SILVERTUC.NS
   - SMARTLINK.NS
   - SOFTTECH.NS
+  - SOLARWORLD.NS
   - SOLEX.NS
   - SONATSOFTW.NS
   - STLTECH.NS
   - STYL.NS
+  - SUBEXLTD.NS
   - SURANASOL.NS
   - SUVIDHAA.NS
   - SWELECTES.NS
@@ -2140,7 +2152,6 @@ Technology (170 stocks)
   - TREJHARA.NS
   - TRIGYN.NS
   - TVSELECT.NS
-  - UEL.NS
   - UNIECOM.NS
   - URBANCO.NS
   - URJA.NS
@@ -2149,7 +2160,6 @@ Technology (170 stocks)
   - VIKRAMSOLR.NS
   - VIRINCHI.NS
   - WAAREEENER.NS
-  - WAAREEINDO.NS
   - WEBELSOLAR.NS
   - WEWIN.NS
   - WIPRO.NS
@@ -2159,16 +2169,12 @@ Technology (170 stocks)
   - ZAGGLE.NS
   - ZENSARTECH.NS
 
-Unknown (9 stocks)
+Unknown (5 stocks)
 ============================================================
   - 3PLAND.NS
   - ARTEMISMED.NS
   - GUJRAFFIA.NS
   - HILINFRA.NS
-  - IVALUE.NS
-  - JARO.NS
-  - SOLARWORLD.NS
-  - SUBEXLTD.NS
   - ZODIAC.NS
 
 Utilities (41 stocks)
