@@ -1,0 +1,497 @@
+{
+  "timestamp": "20251024_150541",
+  "summary": {
+    "total_investment": 205837950.0050782,
+    "total_current_value": 221951591.39,
+    "total_gain_loss": -26952169.155078195,
+    "total_gain_loss_percent": -13.09387756456633,
+    "num_investors": 50,
+    "num_securities": 1487
+  },
+  "investors": [
+    {
+      "Investor": "BANDISH S SOPARKAR",
+      "Investment_April_2024": 808601.4032974243,
+      "Current_Value": 4741766.58,
+      "Gain_Loss": 652965.1767025756,
+      "Num_Securities": 10,
+      "Gain_Loss_Percent": 80.75241695597185
+    },
+    {
+      "Investor": "HEMANTKUMAR CHHABILDAS PATEL",
+      "Investment_April_2024": 2313874.4973754883,
+      "Current_Value": 4220778.65,
+      "Gain_Loss": 304999.90262451174,
+      "Num_Securities": 12,
+      "Gain_Loss_Percent": 13.181350283710625
+    },
+    {
+      "Investor": "ARUNABEN DEEPAKBHAI SHAH",
+      "Investment_April_2024": 3928931.2844543457,
+      "Current_Value": 4251013.26,
+      "Gain_Loss": 319820.9755456543,
+      "Num_Securities": 26,
+      "Gain_Loss_Percent": 8.14015192403833
+    },
+    {
+      "Investor": "VINODCHANDRA CHANDRAKANT GANDHI",
+      "Investment_April_2024": 2352610.994456053,
+      "Current_Value": 4495429.03,
+      "Gain_Loss": 166362.93554394704,
+      "Num_Securities": 14,
+      "Gain_Loss_Percent": 7.071417073880156
+    },
+    {
+      "Investor": "TULSIBEN MOHANLAL PARMAR",
+      "Investment_April_2024": 3414400.632426262,
+      "Current_Value": 4104884.77,
+      "Gain_Loss": 163693.5875737381,
+      "Num_Securities": 69,
+      "Gain_Loss_Percent": 4.794211494080528
+    },
+    {
+      "Investor": "ABHRADEEP DAS",
+      "Investment_April_2024": 4158960.0,
+      "Current_Value": 4337752.5,
+      "Gain_Loss": 178792.5,
+      "Num_Securities": 1,
+      "Gain_Loss_Percent": 4.2989713774597496
+    },
+    {
+      "Investor": "VEENABEN R SHAH",
+      "Investment_April_2024": 4191477.980123043,
+      "Current_Value": 4350666.07,
+      "Gain_Loss": 135641.12987695687,
+      "Num_Securities": 44,
+      "Gain_Loss_Percent": 3.2361169620882766
+    },
+    {
+      "Investor": "DARSHAK RAMESHBHAI THAKKAR",
+      "Investment_April_2024": 3798068.3084373474,
+      "Current_Value": 4394217.3,
+      "Gain_Loss": 108508.69156265259,
+      "Num_Securities": 44,
+      "Gain_Loss_Percent": 2.856944181904319
+    },
+    {
+      "Investor": "JAYABEN RAMNIKBHAI PATEL",
+      "Investment_April_2024": 3328380.3299274445,
+      "Current_Value": 4072135.42,
+      "Gain_Loss": 84054.06007255548,
+      "Num_Securities": 48,
+      "Gain_Loss_Percent": 2.525374258367516
+    },
+    {
+      "Investor": "NILOO DURGESHBHAI PATEL",
+      "Investment_April_2024": 3990372.5153045654,
+      "Current_Value": 4152749.38,
+      "Gain_Loss": 51728.614695434546,
+      "Num_Securities": 34,
+      "Gain_Loss_Percent": 1.2963354798840467
+    },
+    {
+      "Investor": "VIRAT MOHANLAL VORA",
+      "Investment_April_2024": 4115286.1781539917,
+      "Current_Value": 4265606.029999999,
+      "Gain_Loss": 5882.521846008191,
+      "Num_Securities": 25,
+      "Gain_Loss_Percent": 0.14294320227923818
+    },
+    {
+      "Investor": "SAROJ NAVINPRAKASH SONI",
+      "Investment_April_2024": 4292424.423873901,
+      "Current_Value": 4695502.96,
+      "Gain_Loss": 462.8361260986421,
+      "Num_Securities": 32,
+      "Gain_Loss_Percent": 0.01078262726128405
+    },
+    {
+      "Investor": "SAMIR PANKAJBHAI GANDHI",
+      "Investment_April_2024": 0.0,
+      "Current_Value": 4115000.0,
+      "Gain_Loss": 0.0,
+      "Num_Securities": 7,
+      "Gain_Loss_Percent": 0.0
+    },
+    {
+      "Investor": "VIJAYKUMAR RAMESHKUMAR PATEL",
+      "Investment_April_2024": 0.0,
+      "Current_Value": 4437200.0,
+      "Gain_Loss": 0.0,
+      "Num_Securities": 1,
+      "Gain_Loss_Percent": 0.0
+    },
+    {
+      "Investor": "ABHAYKUMAR ASHWINKUMAR JAIN",
+      "Investment_April_2024": 0.0,
+      "Current_Value": 4495000.0,
+      "Gain_Loss": 0.0,
+      "Num_Securities": 1,
+      "Gain_Loss_Percent": 0.0
+    },
+    {
+      "Investor": "DIPAKKUMAR PRANLAL SHAH",
+      "Investment_April_2024": 0.0,
+      "Current_Value": 4103265.0,
+      "Gain_Loss": 0.0,
+      "Num_Securities": 4,
+      "Gain_Loss_Percent": 0.0
+    },
+    {
+      "Investor": "JYOTI LALCHAND CHAWLA",
+      "Investment_April_2024": 4496914.61907053,
+      "Current_Value": 4893764.79,
+      "Gain_Loss": -53980.91907052988,
+      "Num_Securities": 66,
+      "Gain_Loss_Percent": -1.20039902117793
+    },
+    {
+      "Investor": "BABULAL CHIMANLAL SHAH",
+      "Investment_April_2024": 3173214.844116211,
+      "Current_Value": 4661752.85,
+      "Gain_Loss": -40111.99411621108,
+      "Num_Securities": 4,
+      "Gain_Loss_Percent": -1.2640806275877259
+    },
+    {
+      "Investor": "KETANGIRI AMARGIRI GOSWAMI",
+      "Investment_April_2024": 1279087.9767608643,
+      "Current_Value": 4160883.54,
+      "Gain_Loss": -19779.636760864265,
+      "Num_Securities": 22,
+      "Gain_Loss_Percent": -1.5463859500074268
+    },
+    {
+      "Investor": "AXAY MAHENDRA PATEL",
+      "Investment_April_2024": 4640014.077651024,
+      "Current_Value": 4915239.48,
+      "Gain_Loss": -89060.19765102386,
+      "Num_Securities": 70,
+      "Gain_Loss_Percent": -1.9193949880451655
+    },
+    {
+      "Investor": "SURESHKUMAR N KOTADIA HUF",
+      "Investment_April_2024": 4668477.530097961,
+      "Current_Value": 4671069.58,
+      "Gain_Loss": -108954.41009796139,
+      "Num_Securities": 46,
+      "Gain_Loss_Percent": -2.33383173412586
+    },
+    {
+      "Investor": "GUNVANT KANTILAL PATEL",
+      "Investment_April_2024": 4506143.268353462,
+      "Current_Value": 4475341.25,
+      "Gain_Loss": -106102.0183534623,
+      "Num_Securities": 9,
+      "Gain_Loss_Percent": -2.3546081878624294
+    },
+    {
+      "Investor": "AMRISH PRAVINCHANDRA SHAH",
+      "Investment_April_2024": 4670985.327864885,
+      "Current_Value": 4592280.54,
+      "Gain_Loss": -120082.18786488532,
+      "Num_Securities": 44,
+      "Gain_Loss_Percent": -2.570810641355088
+    },
+    {
+      "Investor": "KANTABEN GUNVANTBHAI SUTARIYA",
+      "Investment_April_2024": 3626944.6037323475,
+      "Current_Value": 4564606.65,
+      "Gain_Loss": -103073.95373234755,
+      "Num_Securities": 47,
+      "Gain_Loss_Percent": -2.841894900359883
+    },
+    {
+      "Investor": "YOGESHBHAI DAYABHAI PATEL",
+      "Investment_April_2024": 4661535.969104409,
+      "Current_Value": 4551052.4799999995,
+      "Gain_Loss": -145295.7391044092,
+      "Num_Securities": 31,
+      "Gain_Loss_Percent": -3.116906960868607
+    },
+    {
+      "Investor": "JIGAR GIRISHBHAI SHAH",
+      "Investment_April_2024": 4302994.915252686,
+      "Current_Value": 4356407.65,
+      "Gain_Loss": -145903.96525268536,
+      "Num_Securities": 36,
+      "Gain_Loss_Percent": -3.390753838344181
+    },
+    {
+      "Investor": "PRASHANT SAFI",
+      "Investment_April_2024": 3158583.164622307,
+      "Current_Value": 4551157.25,
+      "Gain_Loss": -108197.91462230674,
+      "Num_Securities": 30,
+      "Gain_Loss_Percent": -3.425520525600746
+    },
+    {
+      "Investor": "JILLOO KAVINA",
+      "Investment_April_2024": 4341110.933998108,
+      "Current_Value": 4322292.11,
+      "Gain_Loss": -150268.69399810804,
+      "Num_Securities": 46,
+      "Gain_Loss_Percent": -3.461526237932659
+    },
+    {
+      "Investor": "ANJANA GIRISH SHAH",
+      "Investment_April_2024": 4353164.984718323,
+      "Current_Value": 4201100.8,
+      "Gain_Loss": -157314.18471832274,
+      "Num_Securities": 20,
+      "Gain_Loss_Percent": -3.6137887093774363
+    },
+    {
+      "Investor": "RAMESHKUMAR BABULAL SONI",
+      "Investment_April_2024": 4859101.895368576,
+      "Current_Value": 4713192.600000001,
+      "Gain_Loss": -191316.895368576,
+      "Num_Securities": 17,
+      "Gain_Loss_Percent": -3.9372892252152307
+    },
+    {
+      "Investor": "SURESHBHAI MANEKLAL PATEL",
+      "Investment_April_2024": 3562370.872894287,
+      "Current_Value": 4598693.93,
+      "Gain_Loss": -147801.19289428703,
+      "Num_Securities": 29,
+      "Gain_Loss_Percent": -4.148955798479352
+    },
+    {
+      "Investor": "JAYNAM DHULABHAI BHOJAK",
+      "Investment_April_2024": 3872835.707092762,
+      "Current_Value": 4481100.08,
+      "Gain_Loss": -170292.27709276197,
+      "Num_Securities": 50,
+      "Gain_Loss_Percent": -4.397095306183179
+    },
+    {
+      "Investor": "LATA KETAN TRIVEDI",
+      "Investment_April_2024": 4401582.044909954,
+      "Current_Value": 4377508.71,
+      "Gain_Loss": -196329.3349099541,
+      "Num_Securities": 36,
+      "Gain_Loss_Percent": -4.460426567238293
+    },
+    {
+      "Investor": "MITESH SEVANTILAL PARIKH",
+      "Investment_April_2024": 3966110.2556610107,
+      "Current_Value": 4169396.53,
+      "Gain_Loss": -178130.9156610107,
+      "Num_Securities": 46,
+      "Gain_Loss_Percent": -4.491325358561484
+    },
+    {
+      "Investor": "TRUPTI NIGESHBHAI JHAVERI",
+      "Investment_April_2024": 3971088.687637329,
+      "Current_Value": 4127606.65,
+      "Gain_Loss": -179046.83763732912,
+      "Num_Securities": 28,
+      "Gain_Loss_Percent": -4.508759479352154
+    },
+    {
+      "Investor": "BABUBHAI GANESHBHAI SUTHAR",
+      "Investment_April_2024": 5019360.663715363,
+      "Current_Value": 4791038.18,
+      "Gain_Loss": -229123.4837153625,
+      "Num_Securities": 7,
+      "Gain_Loss_Percent": -4.5647941852770515
+    },
+    {
+      "Investor": "MAYURI NATWARLAL SHAH",
+      "Investment_April_2024": 5177601.828151703,
+      "Current_Value": 4924669.08,
+      "Gain_Loss": -252932.748151703,
+      "Num_Securities": 12,
+      "Gain_Loss_Percent": -4.885133244052388
+    },
+    {
+      "Investor": "MEENA HARESH JAIN",
+      "Investment_April_2024": 4283206.616142273,
+      "Current_Value": 4097887.04,
+      "Gain_Loss": -227586.13614227288,
+      "Num_Securities": 14,
+      "Gain_Loss_Percent": -5.3134521992135735
+    },
+    {
+      "Investor": "MANOJKUMAR DHIRUBHAI PATEL",
+      "Investment_April_2024": 4991924.9267578125,
+      "Current_Value": 4714554.96,
+      "Gain_Loss": -277574.9267578125,
+      "Num_Securities": 3,
+      "Gain_Loss_Percent": -5.560478789854191
+    },
+    {
+      "Investor": "KOKILA SURYAKANT LAHERI",
+      "Investment_April_2024": 4268187.857116699,
+      "Current_Value": 4213465.7,
+      "Gain_Loss": -261386.9571166994,
+      "Num_Securities": 7,
+      "Gain_Loss_Percent": -6.124073397586461
+    },
+    {
+      "Investor": "HEMANTIKABEN RAJENDRA PATEL",
+      "Investment_April_2024": 4245784.856905818,
+      "Current_Value": 4264649.24,
+      "Gain_Loss": -288087.266905818,
+      "Num_Securities": 25,
+      "Gain_Loss_Percent": -6.785253530622041
+    },
+    {
+      "Investor": "ALPESHKUMAR H SHAH",
+      "Investment_April_2024": 4982413.208659768,
+      "Current_Value": 4627431.71,
+      "Gain_Loss": -354981.49865976814,
+      "Num_Securities": 23,
+      "Gain_Loss_Percent": -7.12469006068759
+    },
+    {
+      "Investor": "SUNITA YOGESH CHAUMAL",
+      "Investment_April_2024": 4681745.986785889,
+      "Current_Value": 4421337.5,
+      "Gain_Loss": -410788.48678588885,
+      "Num_Securities": 44,
+      "Gain_Loss_Percent": -8.774258320407153
+    },
+    {
+      "Investor": "EKTA JIGAR GOHIL",
+      "Investment_April_2024": 4839980.9697647095,
+      "Current_Value": 4420801.02,
+      "Gain_Loss": -454079.9497647095,
+      "Num_Securities": 47,
+      "Gain_Loss_Percent": -9.381854032099307
+    },
+    {
+      "Investor": "KETAKI BANKIM SHAH",
+      "Investment_April_2024": 4873647.868203998,
+      "Current_Value": 4628381.97,
+      "Gain_Loss": -549493.9482039973,
+      "Num_Securities": 24,
+      "Gain_Loss_Percent": -11.274797914493009
+    },
+    {
+      "Investor": "HARSHADKUMAR DALICHAND SHAH",
+      "Investment_April_2024": 2839255.0851732492,
+      "Current_Value": 4164373.71,
+      "Gain_Loss": -456346.5051732492,
+      "Num_Securities": 37,
+      "Gain_Loss_Percent": -16.072754700918438
+    },
+    {
+      "Investor": "NIRAVBHAI DIPAKKUMAR SHAH",
+      "Investment_April_2024": 4840467.958618164,
+      "Current_Value": 4587672.46,
+      "Gain_Loss": -872485.4986181641,
+      "Num_Securities": 16,
+      "Gain_Loss_Percent": -18.024817147374268
+    },
+    {
+      "Investor": "MINESH JAYANTIBHAI PATEL",
+      "Investment_April_2024": 6414994.1580581665,
+      "Current_Value": 4585482.8,
+      "Gain_Loss": -2083097.6580581667,
+      "Num_Securities": 17,
+      "Gain_Loss_Percent": -32.47232353971036
+    },
+    {
+      "Investor": "KAMLESH VASUDEV PANDYA",
+      "Investment_April_2024": 6244543.189334869,
+      "Current_Value": 4513416.8100000005,
+      "Gain_Loss": -2103304.3793348693,
+      "Num_Securities": 112,
+      "Gain_Loss_Percent": -33.68227771932346
+    },
+    {
+      "Investor": "KANUBHAI ISHWERLAL SONI",
+      "Investment_April_2024": 20929184.604952812,
+      "Current_Value": 4379014.79,
+      "Gain_Loss": -17892769.37495281,
+      "Num_Securities": 50,
+      "Gain_Loss_Percent": -85.4919563885855
+    }
+  ],
+  "top_performers": [
+    {
+      "Investor": "BANDISH S SOPARKAR",
+      "Investment_April_2024": 808601.4032974243,
+      "Current_Value": 4741766.58,
+      "Gain_Loss": 652965.1767025756,
+      "Num_Securities": 10,
+      "Gain_Loss_Percent": 80.75241695597185
+    },
+    {
+      "Investor": "HEMANTKUMAR CHHABILDAS PATEL",
+      "Investment_April_2024": 2313874.4973754883,
+      "Current_Value": 4220778.65,
+      "Gain_Loss": 304999.90262451174,
+      "Num_Securities": 12,
+      "Gain_Loss_Percent": 13.181350283710625
+    },
+    {
+      "Investor": "ARUNABEN DEEPAKBHAI SHAH",
+      "Investment_April_2024": 3928931.2844543457,
+      "Current_Value": 4251013.26,
+      "Gain_Loss": 319820.9755456543,
+      "Num_Securities": 26,
+      "Gain_Loss_Percent": 8.14015192403833
+    },
+    {
+      "Investor": "VINODCHANDRA CHANDRAKANT GANDHI",
+      "Investment_April_2024": 2352610.994456053,
+      "Current_Value": 4495429.03,
+      "Gain_Loss": 166362.93554394704,
+      "Num_Securities": 14,
+      "Gain_Loss_Percent": 7.071417073880156
+    },
+    {
+      "Investor": "TULSIBEN MOHANLAL PARMAR",
+      "Investment_April_2024": 3414400.632426262,
+      "Current_Value": 4104884.77,
+      "Gain_Loss": 163693.5875737381,
+      "Num_Securities": 69,
+      "Gain_Loss_Percent": 4.794211494080528
+    }
+  ],
+  "bottom_performers": [
+    {
+      "Investor": "HARSHADKUMAR DALICHAND SHAH",
+      "Investment_April_2024": 2839255.0851732492,
+      "Current_Value": 4164373.71,
+      "Gain_Loss": -456346.5051732492,
+      "Num_Securities": 37,
+      "Gain_Loss_Percent": -16.072754700918438
+    },
+    {
+      "Investor": "NIRAVBHAI DIPAKKUMAR SHAH",
+      "Investment_April_2024": 4840467.958618164,
+      "Current_Value": 4587672.46,
+      "Gain_Loss": -872485.4986181641,
+      "Num_Securities": 16,
+      "Gain_Loss_Percent": -18.024817147374268
+    },
+    {
+      "Investor": "MINESH JAYANTIBHAI PATEL",
+      "Investment_April_2024": 6414994.1580581665,
+      "Current_Value": 4585482.8,
+      "Gain_Loss": -2083097.6580581667,
+      "Num_Securities": 17,
+      "Gain_Loss_Percent": -32.47232353971036
+    },
+    {
+      "Investor": "KAMLESH VASUDEV PANDYA",
+      "Investment_April_2024": 6244543.189334869,
+      "Current_Value": 4513416.8100000005,
+      "Gain_Loss": -2103304.3793348693,
+      "Num_Securities": 112,
+      "Gain_Loss_Percent": -33.68227771932346
+    },
+    {
+      "Investor": "KANUBHAI ISHWERLAL SONI",
+      "Investment_April_2024": 20929184.604952812,
+      "Current_Value": 4379014.79,
+      "Gain_Loss": -17892769.37495281,
+      "Num_Securities": 50,
+      "Gain_Loss_Percent": -85.4919563885855
+    }
+  ]
+}

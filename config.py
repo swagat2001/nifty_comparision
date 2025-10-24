@@ -17,7 +17,7 @@ MULTI_CAP_SHEET = 'Sheet'
 MID_SMALL_CAP_SHEET = 'Sheet'
 
 # Investment start date
-INVESTMENT_DATE = '2024-04-01'
+INVESTMENT_DATE = '2025-06-01'
 
 # Directory structure
 DATA_DIR = PROJECT_DIR / 'data'

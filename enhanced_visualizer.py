@@ -194,7 +194,7 @@ def create_interactive_comparison_dashboard(viz_data):
     fig.update_layout(
         title={
             'text': '<b>Investment Portfolio Comparison Dashboard</b><br>' +
-                   '<sub>Individual Investors vs NIFTY 50 vs GM Funds (Since April 2024)</sub>',
+                   '<sub>Individual Investors vs NIFTY 50 vs GM Funds (Since July 2025)</sub>',
             'x': 0.5,
             'xanchor': 'center',
             'font': {'size': 24, 'family': 'Trebuchet MS, sans-serif'}
@@ -374,7 +374,7 @@ def create_interactive_comparison_dashboard(viz_data):
         'timestamp': timestamp,
         'num_investors': len(investors),
         'date_range': {
-            'start': 'April 2024',
+            'start': 'July 2025',
             'end': datetime.now().strftime('%B %Y')
         },
         'summary': {}
